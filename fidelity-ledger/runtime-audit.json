@@ -1,0 +1,176 @@
+{
+  "passed": true,
+  "errors": [],
+  "source_count": 15,
+  "reference_count": 15,
+  "core_sha256": "5e66dd22157cba0910408b04a3a7bfb8d2e02cf75a99d07ee9de9e4b764d0964",
+  "total_tagged_reference_units": 361,
+  "references": {
+    "references/reference-agre-computation-and-human-experience.md": {
+      "sha256": "46864ca105527cb80bc73578f56fa59bce10502d256c4cd643cc9349bccd27ec",
+      "tagged_units": 23,
+      "tag_counts": {
+        "M1": 21,
+        "M2": 1,
+        "M3": 19,
+        "M4": 11,
+        "M5": 0
+      }
+    },
+    "references/reference-agre-rosenschein-interaction-agency.md": {
+      "sha256": "8170332a98d22b4edbc6389d2e949673dc4d9fabf4507b0a80765e5eba80682e",
+      "tagged_units": 30,
+      "tag_counts": {
+        "M1": 28,
+        "M2": 5,
+        "M3": 27,
+        "M4": 19,
+        "M5": 0
+      }
+    },
+    "references/reference-brooks-design-of-design.md": {
+      "sha256": "59ed7bf9784e2da0c36152750d581e0e065ec4f50a8eb735e38d1b27787c2f8e",
+      "tagged_units": 25,
+      "tag_counts": {
+        "M1": 21,
+        "M2": 0,
+        "M3": 24,
+        "M4": 6,
+        "M5": 0
+      }
+    },
+    "references/reference-brooks-mythical-man-month.md": {
+      "sha256": "2c5c9d57172f4e05f497533f2fcbd355b2fdb98c13d72ed65f1a853cf2a85311",
+      "tagged_units": 25,
+      "tag_counts": {
+        "M1": 18,
+        "M2": 0,
+        "M3": 21,
+        "M4": 13,
+        "M5": 0
+      }
+    },
+    "references/reference-clark-natural-born-cyborgs.md": {
+      "sha256": "b5f370992fab0cb60b9f1ba6b80df2c1fc3d71cd6e161341d22c97e0bc3cc17a",
+      "tagged_units": 22,
+      "tag_counts": {
+        "M1": 17,
+        "M2": 0,
+        "M3": 15,
+        "M4": 15,
+        "M5": 0
+      }
+    },
+    "references/reference-lee-coevolution.md": {
+      "sha256": "798a366ab5ace2d1ff6333a439b054b1e557ed7ef523ce17c6116f568957ca0e",
+      "tagged_units": 25,
+      "tag_counts": {
+        "M1": 23,
+        "M2": 5,
+        "M3": 15,
+        "M4": 9,
+        "M5": 4
+      }
+    },
+    "references/reference-lee-plato-and-the-nerd.md": {
+      "sha256": "91506f2522505463902beec54005cda9e23043e6d5e30e5ba34038e2c9f32840",
+      "tagged_units": 23,
+      "tag_counts": {
+        "M1": 15,
+        "M2": 8,
+        "M3": 11,
+        "M4": 6,
+        "M5": 10
+      }
+    },
+    "references/reference-lee-seshia-embedded-systems.md": {
+      "sha256": "b1774cd3e223a5bb37dd0e4e6474e83739135f2b83bb306ae5591a28a731728a",
+      "tagged_units": 27,
+      "tag_counts": {
+        "M1": 19,
+        "M2": 8,
+        "M3": 14,
+        "M4": 15,
+        "M5": 7
+      }
+    },
+    "references/reference-mackenzie-mechanizing-proof.md": {
+      "sha256": "80ba21aa44649c0c666c6321d4ffe0a5a90e6c6583df6e5463686150b807ef9e",
+      "tagged_units": 23,
+      "tag_counts": {
+        "M1": 18,
+        "M2": 1,
+        "M3": 22,
+        "M4": 6,
+        "M5": 0
+      }
+    },
+    "references/reference-simon-sciences-of-artificial.md": {
+      "sha256": "89abdde442025cb1e8688a3d2cd31703a6328c3625d47deca966160eec8da99f",
+      "tagged_units": 25,
+      "tag_counts": {
+        "M1": 21,
+        "M2": 1,
+        "M3": 21,
+        "M4": 12,
+        "M5": 0
+      }
+    },
+    "references/reference-smith-reckoning-and-judgment.md": {
+      "sha256": "1d63d92eb63995e94c28e465582385a409aadd1129eeaf99fc110aa5988848cb",
+      "tagged_units": 23,
+      "tag_counts": {
+        "M1": 21,
+        "M2": 0,
+        "M3": 17,
+        "M4": 0,
+        "M5": 0
+      }
+    },
+    "references/reference-suchman-human-machine-reconfigurations.md": {
+      "sha256": "a458363a0319996d344c69fd8890083061781038f1087801dfb075d5422896c6",
+      "tagged_units": 22,
+      "tag_counts": {
+        "M1": 19,
+        "M2": 0,
+        "M3": 16,
+        "M4": 10,
+        "M5": 0
+      }
+    },
+    "references/reference-weizenbaum-computer-power-human-reason.md": {
+      "sha256": "a59bb66d1b48dfe89e148bb0b1d985a80c3a9f7890eba7d3edc82a10b9220d69",
+      "tagged_units": 24,
+      "tag_counts": {
+        "M1": 20,
+        "M2": 2,
+        "M3": 22,
+        "M4": 0,
+        "M5": 1
+      }
+    },
+    "references/reference-wiener-human-use-human-beings.md": {
+      "sha256": "06c628e552aadd3e5ac21b3f513206384bb6566832af68adb8ab0ffa0837406b",
+      "tagged_units": 21,
+      "tag_counts": {
+        "M1": 16,
+        "M2": 1,
+        "M3": 14,
+        "M4": 11,
+        "M5": 0
+      }
+    },
+    "references/reference-winograd-flores-computers-and-cognition.md": {
+      "sha256": "a21ff479ceeea3efaa96b00b86c8c63e41a9c2166643ef66f2fe9a4f587b3ce2",
+      "tagged_units": 23,
+      "tag_counts": {
+        "M1": 20,
+        "M2": 1,
+        "M3": 18,
+        "M4": 9,
+        "M5": 0
+      }
+    }
+  },
+  "limits": "Mechanical audit; tag relevance and authorial fidelity require editorial review."
+}

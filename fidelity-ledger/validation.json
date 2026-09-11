@@ -1,0 +1,135 @@
+{
+  "errors": [],
+  "warnings": [],
+  "facts": {
+    "skill_root": ".",
+    "discovery_entry": ".agents/skills/models-and-machines-colleague",
+    "layout": "published-repo",
+    "master_body_tokens": 3414,
+    "master_budget": 4075,
+    "master_capabilities": 5,
+    "references": {
+      "reference-agre-computation-and-human-experience.md": {
+        "tokens": 1910,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 14,
+        "budget": 8912
+      },
+      "reference-agre-rosenschein-interaction-agency.md": {
+        "tokens": 2951,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 22,
+        "budget": 10336
+      },
+      "reference-brooks-design-of-design.md": {
+        "tokens": 1882,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 28,
+        "budget": 11237
+      },
+      "reference-brooks-mythical-man-month.md": {
+        "tokens": 1916,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 15,
+        "budget": 9109
+      },
+      "reference-clark-natural-born-cyborgs.md": {
+        "tokens": 1700,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 8,
+        "budget": 7543
+      },
+      "reference-lee-coevolution.md": {
+        "tokens": 1980,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 14,
+        "budget": 8912
+      },
+      "reference-lee-plato-and-the-nerd.md": {
+        "tokens": 2062,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 12,
+        "budget": 8496
+      },
+      "reference-lee-seshia-embedded-systems.md": {
+        "tokens": 2234,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 17,
+        "budget": 9485
+      },
+      "reference-mackenzie-mechanizing-proof.md": {
+        "tokens": 1830,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 9,
+        "budget": 7800
+      },
+      "reference-simon-sciences-of-artificial.md": {
+        "tokens": 1897,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 8,
+        "budget": 7543
+      },
+      "reference-smith-reckoning-and-judgment.md": {
+        "tokens": 1809,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 13,
+        "budget": 8708
+      },
+      "reference-suchman-human-machine-reconfigurations.md": {
+        "tokens": 1708,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 15,
+        "budget": 9109
+      },
+      "reference-weizenbaum-computer-power-human-reason.md": {
+        "tokens": 1921,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 10,
+        "budget": 8043
+      },
+      "reference-wiener-human-use-human-beings.md": {
+        "tokens": 1631,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 11,
+        "budget": 8275
+      },
+      "reference-winograd-flores-computers-and-cognition.md": {
+        "tokens": 1836,
+        "cap": 14000,
+        "depth": "study",
+        "type": "text",
+        "sections": 12,
+        "budget": 8496
+      }
+    },
+    "books": 15
+  }
+}

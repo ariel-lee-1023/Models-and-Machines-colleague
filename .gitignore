@@ -1,0 +1,16 @@
+.DS_Store
+__pycache__/
+*.pyc
+.venv/
+.idea/
+.vscode/
+*.swp
+*.tmp
+*.pdf
+*.epub
+*.docx
+raw-sources/
+extracted/
+book_skill_work/
+full_text.txt
+*-recovered.md
