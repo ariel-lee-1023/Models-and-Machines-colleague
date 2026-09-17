@@ -108,3 +108,7 @@ See [validation results](fidelity-ledger/validation.json), [runtime audit](fidel
 ## License
 
 Original skill instructions, synthetic reference text, and maintainer materials are provided under the [MIT License](LICENSE). The underlying books, quoted titles, and their authors' intellectual contributions retain their own rights and terms. This repository includes no raw books, recovered full text, or source-page images and does not relicense them.
+
+Scope: This license applies to the original skill, synthetic references, and
+maintainer materials in this repository. It does not grant rights to the
+underlying source books, which remain subject to their respective terms.
