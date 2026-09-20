@@ -6,7 +6,9 @@ If two components behave deterministically on their own, I examine the schedulin
 
 I use Edward A. Lee's M1–M5 anchor to keep descriptions, directions of fit, composition, and modeling limits explicit. I also ask who notices divergence and has the authority and resources to respond. Human supervision cannot carry a guarantee if the supervisor lacks the information or power it requires. I turn the analysis into a tighter claim, a design revision, or a discriminating test, preserving both useful formal assurances and the limits of their application.
 
-This Agent Skill supports engineering design and critique through source references on computing, situated action, proof, trust, and judgment. Technology arrival-date forecasting is outside its scope.
+When a coding assistant speeds up delivery, I follow what happens next: does the review backlog grow, do defects become visible only later, and do reviewers gain or lose opportunities to learn? I make those mechanisms and their assumptions explicit. I also ask whether a person can explain an unfamiliar case, detect a misleading answer, and change the arrangement. Correct output, understanding, and authority to act each need their own evidence. I compare interventions and propose observations that could change my recommendation.
+
+This Agent Skill supports engineering design and critique through source references on computing, system dynamics, situated action, proof, trust, and the cultivation of understanding. Technology arrival-date forecasting is outside its scope.
 
 ## Edward A. Lee anchor
 
@@ -42,6 +44,9 @@ Use one installation approach appropriate to your host. If its skill location di
 
 Example requests:
 
+- “Our coding assistant speeds up delivery but reviewers diagnose fewer failures themselves. Trace the feedback and propose a testable intervention.”
+- “This technology reduces energy per task. What assumptions connect that gain to lower total resource use?”
+- “The tutor gives correct solutions. How would we test whether learners can question and adapt the model?”
 - “The services are individually deterministic. Review the claim that the distributed system is deterministic.”
 - “Our simulator reproduces the benchmark. What does that establish about the physical mechanism?”
 - “This program is formally verified. Trace the remaining assumptions between the proof and the deployed machine.”
@@ -70,12 +75,16 @@ Only the shared core is loaded initially. Its task-based routing selects the rel
 | [The Promise of Artificial Intelligence: Reckoning and Judgment](references/reference-smith-reckoning-and-judgment.md) | Brian Cantwell Smith | Registration, world, accountability for the frame |
 | [The Sciences of the Artificial](references/reference-simon-sciences-of-artificial.md) | Herbert A. Simon | Artifact interfaces, bounded rationality, hierarchy |
 | [Understanding Computers and Cognition: A New Foundation for Design](references/reference-winograd-flores-computers-and-cognition.md) | Terry Winograd and Fernando Flores | Background, breakdown, language and commitments |
+| [Thinking in Systems: A Primer](references/reference-meadows-thinking-in-systems.md) | Donella H. Meadows | Stocks, flows, feedback, delays, traps, intervention and learning |
+| [Limits to Growth: The 30-Year Update](references/reference-meadows-randers-limits-to-growth.md) | Donella Meadows, Jorgen Randers, Dennis Meadows | Growth, sources and sinks, overshoot, conditional scenarios |
+| [Mathematica](references/reference-bessis-mathematica.md) | David Bessis; translated by Kevin Frey | Cultivated intuition, representations, practice and correction |
+| [The Mathematician’s Mind](references/reference-hadamard-mathematicians-mind.md) | Jacques Hadamard | Discovery, verification, diverse modes of thought; historical testimony |
 
 ## Repository layout
 
 ```text
 SKILL.md                     Shared reasoning core and loading triggers
-references/                  Fifteen canonical source references
+references/                  Nineteen canonical source references
 AGENTS.md                    Project discovery and maintenance instructions
 README.md
 LICENSE
@@ -89,11 +98,13 @@ The root skill and references are the only runtime copy. The relative symlink su
 
 ## Fidelity and limitations
 
-Built with Books-to-Skill-Refs from fifteen supplied Markdown files using structural probes and targeted reading. The references preserve concepts and decision boundaries through synthetic prose, chapter locators, and compact reconstructed examples. They are selective working references, not complete substitutes for the books, implementation manuals, or reproductions of formal proofs.
+Built with Books-to-Skill-Refs from nineteen supplied Markdown files using structural probes and targeted reading. The references preserve concepts and decision boundaries through synthetic prose, chapter locators, and compact reconstructed examples. They are selective working references, not complete substitutes for the books, implementation manuals, or reproductions of formal proofs.
 
 The Weizenbaum Markdown contained only page markers; its matching local PDF was OCRed. Cleaner PDF text also repaired fragmented passages in the interaction anthology and the 1975 Brooks source. OCR and conversion can still contain errors. The original Brooks edition does not include later anniversary essays. Later introductions and forewords are distinguished from the original authors' arguments. See the [source and coverage ledger](fidelity-ledger/source-and-coverage-ledger.md) and [source manifest](fidelity-ledger/source-manifest.json).
 
 The core preserves disagreements rather than claiming consensus. It distinguishes formal results, philosophical interpretations, and new design applications. Historical examples do not establish present tool capabilities, safety, law, adoption, or forecasts. Important new technical or empirical claims need current authoritative evidence.
+
+The 2026-09-20 fold-in connects system behavior with the practices needed to understand and reshape it. World3's dated scenarios remain conditional; Bessis's reflective account and Hadamard's selected testimony are not universal learning laws. The proposed competence tests are new design applications. English remains the default output language, matching the supplied editions and existing project guidance.
 
 ## Validation
 
@@ -103,7 +114,7 @@ The build is checked against the metatool's published-repository layout and toke
 python3 fidelity-ledger/check_runtime.py
 ```
 
-See [validation results](fidelity-ledger/validation.json), [runtime audit](fidelity-ledger/runtime-audit.json), and [editorial evaluation](fidelity-ledger/evaluation.md). Editorial cases are construction-time reviews, not independent model benchmarks. A clean instruction scan is advisory, not a security guarantee.
+See [validation results](fidelity-ledger/validation.json), [runtime audit](fidelity-ledger/runtime-audit.json), and [editorial evaluation](fidelity-ledger/evaluation.md). See the [fold-in review and worked case](fidelity-ledger/fold-in-2026-09-20.md) and [coverage audit](fidelity-ledger/coverage-audit.md). Editorial cases are construction-time reviews, not independent model benchmarks. The added behavioral suite is unrun: no evaluation endpoint/model was configured, and no controlled improvement or regression result is claimed. A clean instruction scan is advisory, not a security guarantee.
 
 ## License
 

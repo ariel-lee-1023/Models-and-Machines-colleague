@@ -1,26 +1,28 @@
 {
-  "date": "2026-09-20",
+  "date": "2026-09-11",
   "profile": "published-repo",
-  "source_count": 19,
-  "prior_reference_files_unchanged": 15,
-  "architecture": "Existing destination architecture preserved.",
-  "behavioral_acceptance": "unrun; no endpoint/model configured",
-  "editorial_review": "fold-in-2026-09-20.md",
+  "metatool": "Books-to-Skill-Refs",
+  "metatool_worktree_has_preexisting_changes": true,
+  "metatool_changes_committed_or_published": false,
+  "validator_sha256": "06a349f4ea6b97a0f6c0a71b95ebb157af91af33bf26433edda553d8edf7a335",
+  "scanner_sha256": "be4a5a83dca864b535c8012d5f25643592662611ca92ea807b9d25487fa4304f",
+  "commands": [
+    "python3 tools/validate_library.py <destination> --layout published-repo --json",
+    "python3 tools/scan_generated_skill.py <destination>/SKILL.md --strict --json",
+    "python3 tools/scan_generated_skill.py <destination>/references --strict --json",
+    "python3 <destination>/fidelity-ledger/check_runtime.py"
+  ],
   "runtime_sha256": {
-    "SKILL.md": "268fd43e831c29ac586845f8f8006421740cb6788c2b235ba386eb859d4a8ac2",
+    "SKILL.md": "5e66dd22157cba0910408b04a3a7bfb8d2e02cf75a99d07ee9de9e4b764d0964",
     "references/reference-agre-computation-and-human-experience.md": "46864ca105527cb80bc73578f56fa59bce10502d256c4cd643cc9349bccd27ec",
     "references/reference-agre-rosenschein-interaction-agency.md": "8170332a98d22b4edbc6389d2e949673dc4d9fabf4507b0a80765e5eba80682e",
-    "references/reference-bessis-mathematica.md": "1f54eb9e55f16035243394778fed1e7b482846a9ea5255c49284c6ab3d5b3b8f",
     "references/reference-brooks-design-of-design.md": "59ed7bf9784e2da0c36152750d581e0e065ec4f50a8eb735e38d1b27787c2f8e",
     "references/reference-brooks-mythical-man-month.md": "2c5c9d57172f4e05f497533f2fcbd355b2fdb98c13d72ed65f1a853cf2a85311",
     "references/reference-clark-natural-born-cyborgs.md": "b5f370992fab0cb60b9f1ba6b80df2c1fc3d71cd6e161341d22c97e0bc3cc17a",
-    "references/reference-hadamard-mathematicians-mind.md": "24fec738d0a6997992c2a52decf5d9ea15e0107d9ecdf0907696419d97e83619",
     "references/reference-lee-coevolution.md": "798a366ab5ace2d1ff6333a439b054b1e557ed7ef523ce17c6116f568957ca0e",
     "references/reference-lee-plato-and-the-nerd.md": "91506f2522505463902beec54005cda9e23043e6d5e30e5ba34038e2c9f32840",
     "references/reference-lee-seshia-embedded-systems.md": "b1774cd3e223a5bb37dd0e4e6474e83739135f2b83bb306ae5591a28a731728a",
     "references/reference-mackenzie-mechanizing-proof.md": "80ba21aa44649c0c666c6321d4ffe0a5a90e6c6583df6e5463686150b807ef9e",
-    "references/reference-meadows-randers-limits-to-growth.md": "3d142f21f87fc6c1efbcfd4311c03063dce3434a076860ba4853004ed5f091d0",
-    "references/reference-meadows-thinking-in-systems.md": "d8dbc5e97089f983bac043ae3b5f8e6392e76735ef274be4504611fb6cd62ac8",
     "references/reference-simon-sciences-of-artificial.md": "89abdde442025cb1e8688a3d2cd31703a6328c3625d47deca966160eec8da99f",
     "references/reference-smith-reckoning-and-judgment.md": "1d63d92eb63995e94c28e465582385a409aadd1129eeaf99fc110aa5988848cb",
     "references/reference-suchman-human-machine-reconfigurations.md": "a458363a0319996d344c69fd8890083061781038f1087801dfb075d5422896c6",
@@ -28,21 +30,22 @@
     "references/reference-wiener-human-use-human-beings.md": "06c628e552aadd3e5ac21b3f513206384bb6566832af68adb8ab0ffa0837406b",
     "references/reference-winograd-flores-computers-and-cognition.md": "a21ff479ceeea3efaa96b00b86c8c63e41a9c2166643ef66f2fe9a4f587b3ce2"
   },
-  "validator_sha256": "06a349f4ea6b97a0f6c0a71b95ebb157af91af33bf26433edda553d8edf7a335",
-  "scanner_sha256": "be4a5a83dca864b535c8012d5f25643592662611ca92ea807b9d25487fa4304f",
-  "checks": [
-    "published-repo layout and budgets",
-    "separate core and reference instruction scans",
-    "project runtime audit",
-    "reading ledger validation"
-  ],
+  "instruction_scans": {
+    "core_findings": 0,
+    "reference_findings": 0,
+    "advisory": true
+  },
+  "composition_check": {
+    "initial": 1,
+    "A": "x + 1",
+    "B": "2 * x",
+    "A_then_B": 4,
+    "B_then_A": 3,
+    "different_outcomes": true
+  },
   "limitations": [
-    "Editorial cases are not independent model runs.",
-    "Emitted reading tokens are an upper bound where tool output was truncated; initial metadata and direct excerpts are outside the partial ledger.",
-    "Mechanical checks do not establish authorial fidelity or behavioral improvement."
-  ],
-  "preserved_local_changes": [
-    "AGENTS.md expanded language guidance",
-    "untracked docs/"
+    "Editorial review is not an independently sampled benchmark.",
+    "Layout and tag tests do not prove philosophical fidelity.",
+    "The source read-window log is partial; exact billed input is not reconstructed."
   ]
 }

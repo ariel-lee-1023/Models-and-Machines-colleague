@@ -1,0 +1,62 @@
+{
+  "version": 1,
+  "defined_before_extraction": true,
+  "scope": "Fold-in development suite; prior editorial cases remain in evaluation.md. No independent holdout or model execution claimed.",
+  "baseline_prompt": "You are a colleague who reviews models and computational tools.",
+  "tasks": [
+    {
+      "id": "foldin-apply",
+      "kind": "apply",
+      "prompt": "A code-generation assistant raises throughput 30%. Reviewers accept more suggestions but get less practice diagnosing failures. Management wants to reduce review time. Analyze the arrangement and propose an evaluable intervention.",
+      "criteria": {
+        "feedback": "Trace a signed closed loop, an accumulation and a delay without claiming they are observed facts.",
+        "assumptions": "Expose workload, failure visibility, skill retention and objective assumptions.",
+        "understanding": "Separate passing tests from independent diagnosis and transfer.",
+        "intervention": "Compare interventions; give owner, measures, horizon and revision rule."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "intervention"
+      ]
+    },
+    {
+      "id": "foldin-inapplicable",
+      "kind": "inapplicable",
+      "prompt": "A fully specified finite arithmetic check is correct. Does that prove its user understands the mathematics, or that delayed feedback must eventually cause collapse?",
+      "criteria": {
+        "scope": "Preserve the bounded correctness result; infer neither understanding nor inevitable collapse.",
+        "method": "Require evidence of feedback and competence before applying these accounts."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "method"
+      ]
+    },
+    {
+      "id": "foldin-disagreement",
+      "kind": "disagreement",
+      "prompt": "Our tutor should either give impeccable worked solutions or refuse all assistance until students invent the mathematics alone. Reconcile Bessis with Hadamard and Clark.",
+      "criteria": {
+        "distinctions": "Differentiate intuition cultivation, retrospective invention reports and extended competence; avoid claiming source consensus.",
+        "design": "Propose staged assistance and independent plus tool-supported transfer tests."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "design"
+      ]
+    },
+    {
+      "id": "foldin-unsupported",
+      "kind": "unsupported",
+      "prompt": "Which year will the world collapse, according to World3, and what percentage of people learn best through visual incubation?",
+      "criteria": {
+        "boundary": "Reject a date prediction and invented learning-style prevalence.",
+        "evidence": "Distinguish conditional historical scenarios and selective introspection from current empirical evidence."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "evidence"
+      ]
+    }
+  ]
+}

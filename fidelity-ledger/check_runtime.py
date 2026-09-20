@@ -23,8 +23,10 @@ def audit() -> dict:
     refs = sorted((ROOT / "references").glob("reference-*.md"))
     declared = {x["reference"] for x in manifest["sources"]}
     actual = {str(p.relative_to(ROOT)) for p in refs}
-    if len(refs) != 15 or len(manifest["sources"]) != 15 or declared != actual:
-        errors.append("Expected fifteen sources and fifteen matching references")
+    expected = manifest["source_count"]
+    match = re.search(r"\*\*Books\*\*:\s*(\d+)", core)
+    if len(refs) != expected or len(manifest["sources"]) != expected or declared != actual or not match or int(match[1]) != expected:
+        errors.append("Source manifest, core count, and references must match")
     if "name: models-and-machines-colleague\n" not in core:
         errors.append("Unexpected skill slug")
     alias = ROOT / ".agents/skills/models-and-machines-colleague"

@@ -1,0 +1,399 @@
+{
+  "sources": {
+    "systems": {
+      "lines": 3485,
+      "output_budget": 7269
+    },
+    "limits": {
+      "lines": 5285,
+      "output_budget": 7543
+    },
+    "bessis": {
+      "lines": 2102,
+      "output_budget": 9838
+    },
+    "hadamard": {
+      "lines": 6306,
+      "output_budget": 7800
+    }
+  },
+  "reads": [
+    {
+      "source": "systems",
+      "start": 320,
+      "end": 351,
+      "tokens": 652,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 469,
+      "end": 501,
+      "tokens": 975,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 555,
+      "end": 577,
+      "tokens": 550,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 908,
+      "end": 921,
+      "tokens": 438,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 1399,
+      "end": 1431,
+      "tokens": 1858,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 1744,
+      "end": 1778,
+      "tokens": 1284,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 2100,
+      "end": 2160,
+      "tokens": 2787,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 2264,
+      "end": 2285,
+      "tokens": 1376,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 2332,
+      "end": 2372,
+      "tokens": 2340,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 2545,
+      "end": 2574,
+      "tokens": 1372,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 2745,
+      "end": 2954,
+      "tokens": 3863,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 2264,
+      "end": 2285,
+      "tokens": 1376,
+      "reason": "verification",
+      "question": "Does Meadows claim the leverage ranking is a recipe?",
+      "resolution": "No; the smaller follow-up exposes the express invitation-to-inquiry qualification."
+    },
+    {
+      "source": "systems",
+      "start": 2332,
+      "end": 2372,
+      "tokens": 2340,
+      "reason": "verification",
+      "question": "Does shorter delay always improve behavior?",
+      "resolution": "No; the follow-up preserves interaction with rates, gain, overreaction and immovable delays."
+    },
+    {
+      "source": "systems",
+      "start": 1780,
+      "end": 1797,
+      "tokens": 870,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "systems",
+      "start": 661,
+      "end": 688,
+      "tokens": 495,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 207,
+      "end": 214,
+      "tokens": 277,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 247,
+      "end": 283,
+      "tokens": 2940,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 2244,
+      "end": 2267,
+      "tokens": 1839,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 2320,
+      "end": 2370,
+      "tokens": 2972,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 2619,
+      "end": 2644,
+      "tokens": 629,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 3411,
+      "end": 3438,
+      "tokens": 1913,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 2640,
+      "end": 2670,
+      "tokens": 1266,
+      "reason": "verification",
+      "question": "Which capacity condition separates oscillation and collapse?",
+      "resolution": "Recoverable limits versus eroding limits, within the model; retained in conditional behavior modes."
+    },
+    {
+      "source": "limits",
+      "start": 2751,
+      "end": 2780,
+      "tokens": 948,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 3680,
+      "end": 3696,
+      "tokens": 445,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 3723,
+      "end": 3748,
+      "tokens": 604,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 4051,
+      "end": 4066,
+      "tokens": 876,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 4101,
+      "end": 4140,
+      "tokens": 914,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "bessis",
+      "start": 144,
+      "end": 182,
+      "tokens": 2149,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "bessis",
+      "start": 295,
+      "end": 312,
+      "tokens": 1083,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "bessis",
+      "start": 375,
+      "end": 432,
+      "tokens": 4343,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "bessis",
+      "start": 503,
+      "end": 556,
+      "tokens": 3242,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "bessis",
+      "start": 709,
+      "end": 736,
+      "tokens": 1926,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "bessis",
+      "start": 835,
+      "end": 858,
+      "tokens": 1351,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "bessis",
+      "start": 917,
+      "end": 981,
+      "tokens": 3900,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "bessis",
+      "start": 515,
+      "end": 550,
+      "tokens": 2087,
+      "reason": "verification",
+      "question": "Does correcting intuition dispense with formal constraints?",
+      "resolution": "No; formal writing exposes errors. Retained while bounding the anti-logic polemic."
+    },
+    {
+      "source": "bessis",
+      "start": 709,
+      "end": 736,
+      "tokens": 1926,
+      "reason": "verification",
+      "question": "Must a useful image faithfully depict the full object?",
+      "resolution": "No; the source describes partial and false images; the reference preserves this boundary."
+    },
+    {
+      "source": "bessis",
+      "start": 1107,
+      "end": 1144,
+      "tokens": 3914,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "bessis",
+      "start": 1825,
+      "end": 1840,
+      "tokens": 1634,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 580,
+      "end": 680,
+      "tokens": 1141,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 920,
+      "end": 1090,
+      "tokens": 1734,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 1655,
+      "end": 1735,
+      "tokens": 921,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 2188,
+      "end": 2250,
+      "tokens": 774,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 2840,
+      "end": 2890,
+      "tokens": 545,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 4489,
+      "end": 4550,
+      "tokens": 789,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 5129,
+      "end": 5208,
+      "tokens": 941,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 6050,
+      "end": 6150,
+      "tokens": 1207,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 2995,
+      "end": 3050,
+      "tokens": 715,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 3590,
+      "end": 3650,
+      "tokens": 740,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 5427,
+      "end": 5500,
+      "tokens": 911,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "hadamard",
+      "start": 6140,
+      "end": 6190,
+      "tokens": 558,
+      "reason": "verification",
+      "question": "Whose representational mode does the Einstein testimony describe?",
+      "resolution": "His own visual and muscular elements, with later conventional signs; retained as first-person testimony."
+    },
+    {
+      "source": "limits",
+      "start": 1080,
+      "end": 1110,
+      "tokens": 939,
+      "reason": "targeted evidence probe"
+    },
+    {
+      "source": "limits",
+      "start": 3161,
+      "end": 3182,
+      "tokens": 755,
+      "reason": "targeted evidence probe"
+    }
+  ],
+  "limitations": "Records count cleaned tokens emitted for targeted probes, an upper bound on model-visible reading where tool output was truncated. Initial heading/frontmatter inspection and direct early excerpts are not included. Truncated critical passages were checked through smaller follow-up probes; this is not exhaustive reading."
+}

@@ -1,10 +1,10 @@
 {
   "passed": true,
   "errors": [],
-  "source_count": 19,
-  "reference_count": 19,
-  "core_sha256": "268fd43e831c29ac586845f8f8006421740cb6788c2b235ba386eb859d4a8ac2",
-  "total_tagged_reference_units": 495,
+  "source_count": 15,
+  "reference_count": 15,
+  "core_sha256": "5e66dd22157cba0910408b04a3a7bfb8d2e02cf75a99d07ee9de9e4b764d0964",
+  "total_tagged_reference_units": 361,
   "references": {
     "references/reference-agre-computation-and-human-experience.md": {
       "sha256": "46864ca105527cb80bc73578f56fa59bce10502d256c4cd643cc9349bccd27ec",
@@ -25,17 +25,6 @@
         "M2": 5,
         "M3": 27,
         "M4": 19,
-        "M5": 0
-      }
-    },
-    "references/reference-bessis-mathematica.md": {
-      "sha256": "1f54eb9e55f16035243394778fed1e7b482846a9ea5255c49284c6ab3d5b3b8f",
-      "tagged_units": 31,
-      "tag_counts": {
-        "M1": 28,
-        "M2": 0,
-        "M3": 28,
-        "M4": 0,
         "M5": 0
       }
     },
@@ -69,17 +58,6 @@
         "M2": 0,
         "M3": 15,
         "M4": 15,
-        "M5": 0
-      }
-    },
-    "references/reference-hadamard-mathematicians-mind.md": {
-      "sha256": "24fec738d0a6997992c2a52decf5d9ea15e0107d9ecdf0907696419d97e83619",
-      "tagged_units": 33,
-      "tag_counts": {
-        "M1": 32,
-        "M2": 0,
-        "M3": 19,
-        "M4": 0,
         "M5": 0
       }
     },
@@ -124,28 +102,6 @@
         "M2": 1,
         "M3": 22,
         "M4": 6,
-        "M5": 0
-      }
-    },
-    "references/reference-meadows-randers-limits-to-growth.md": {
-      "sha256": "3d142f21f87fc6c1efbcfd4311c03063dce3434a076860ba4853004ed5f091d0",
-      "tagged_units": 35,
-      "tag_counts": {
-        "M1": 31,
-        "M2": 0,
-        "M3": 30,
-        "M4": 16,
-        "M5": 0
-      }
-    },
-    "references/reference-meadows-thinking-in-systems.md": {
-      "sha256": "d8dbc5e97089f983bac043ae3b5f8e6392e76735ef274be4504611fb6cd62ac8",
-      "tagged_units": 35,
-      "tag_counts": {
-        "M1": 24,
-        "M2": 0,
-        "M3": 28,
-        "M4": 21,
         "M5": 0
       }
     },

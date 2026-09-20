@@ -1,0 +1,34 @@
+{
+  "systems": {
+    "unique_lines": 580,
+    "repeated_lines": 63,
+    "input_tokens": 22576,
+    "unresolved": [],
+    "coverage_fraction": 0.16642754662840745,
+    "budget_alert": false
+  },
+  "limits": {
+    "unique_lines": 382,
+    "repeated_lines": 5,
+    "input_tokens": 17317,
+    "unresolved": [],
+    "coverage_fraction": 0.07228003784295176,
+    "budget_alert": false
+  },
+  "bessis": {
+    "unique_lines": 340,
+    "repeated_lines": 64,
+    "input_tokens": 27555,
+    "unresolved": [],
+    "coverage_fraction": 0.16175071360608945,
+    "budget_alert": false
+  },
+  "hadamard": {
+    "unique_lines": 941,
+    "repeated_lines": 11,
+    "input_tokens": 10976,
+    "unresolved": [],
+    "coverage_fraction": 0.14922296225816684,
+    "budget_alert": false
+  }
+}

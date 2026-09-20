@@ -228,3 +228,7 @@ Anchor coverage: M1: 20 tagged units; M2: 1 tagged units; M3: 18 tagged units; M
 Before adding a claim, identify its source passage, source-specific conditions, relevant M-tags, and status (source claim, mathematical result, philosophical interpretation, or application). If there is no defensible tag, exclude it and record why. If a new source challenges the shared reasoning, revise the core rather than hiding the disagreement. Keep one file per source and keep maintainer records here.
 
 Rerun the published-layout validator, the two separate instruction scans, and check_runtime.py after changes. Reconsider editorial cases when the relevant runtime changes. A clean mechanical audit cannot establish authorial fidelity; exact quotations, formal proofs, and deployment decisions require the underlying source or independent evidence.
+
+## 2026-09-20 fold-in
+
+Four sources were added, bringing the library to nineteen. See [the additional coverage audit](coverage-audit.md) and [the fold-in review](fold-in-2026-09-20.md). The original fifteen-source extraction record above remains historical.

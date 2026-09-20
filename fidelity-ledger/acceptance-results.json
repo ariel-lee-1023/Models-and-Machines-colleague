@@ -1,0 +1,9 @@
+{
+  "status": "unrun",
+  "date": "2026-09-20",
+  "reason": "No evaluation endpoint or model configured; no independent fresh-context runs performed.",
+  "suite": "acceptance-suite.json",
+  "runs": {},
+  "improvement_claim": "No controlled behavioral improvement or regression result established.",
+  "editorial_review": "fold-in-2026-09-20.md"
+}

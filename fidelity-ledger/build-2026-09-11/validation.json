@@ -5,9 +5,9 @@
     "skill_root": ".",
     "discovery_entry": ".agents/skills/models-and-machines-colleague",
     "layout": "published-repo",
-    "master_body_tokens": 4316,
-    "master_budget": 5075,
-    "master_capabilities": 7,
+    "master_body_tokens": 3414,
+    "master_budget": 4075,
+    "master_capabilities": 5,
     "references": {
       "reference-agre-computation-and-human-experience.md": {
         "tokens": 1910,
@@ -24,14 +24,6 @@
         "type": "text",
         "sections": 22,
         "budget": 10336
-      },
-      "reference-bessis-mathematica.md": {
-        "tokens": 2745,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 19,
-        "budget": 9838
       },
       "reference-brooks-design-of-design.md": {
         "tokens": 1882,
@@ -56,14 +48,6 @@
         "type": "text",
         "sections": 8,
         "budget": 7543
-      },
-      "reference-hadamard-mathematicians-mind.md": {
-        "tokens": 2691,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 9,
-        "budget": 7800
       },
       "reference-lee-coevolution.md": {
         "tokens": 1980,
@@ -96,22 +80,6 @@
         "type": "text",
         "sections": 9,
         "budget": 7800
-      },
-      "reference-meadows-randers-limits-to-growth.md": {
-        "tokens": 3127,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 8,
-        "budget": 7543
-      },
-      "reference-meadows-thinking-in-systems.md": {
-        "tokens": 2835,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 7,
-        "budget": 7269
       },
       "reference-simon-sciences-of-artificial.md": {
         "tokens": 1897,
@@ -162,6 +130,6 @@
         "budget": 8496
       }
     },
-    "books": 19
+    "books": 15
   }
 }
