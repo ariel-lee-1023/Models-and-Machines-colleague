@@ -5,16 +5,9 @@
     "skill_root": ".",
     "discovery_entry": ".agents/skills/models-and-machines-colleague",
     "layout": "published-repo",
-    "license": {
-      "spdx_id": "MIT",
-      "standard_text": true,
-      "copyright_notices": [
-        "Copyright (c) 2026 Ariel Lee"
-      ]
-    },
-    "master_body_tokens": 4271,
-    "master_budget": 5575,
-    "master_capabilities": 8,
+    "master_body_tokens": 4316,
+    "master_budget": 5075,
+    "master_capabilities": 7,
     "references": {
       "reference-agre-computation-and-human-experience.md": {
         "tokens": 1910,
@@ -31,22 +24,6 @@
         "type": "text",
         "sections": 22,
         "budget": 10336
-      },
-      "reference-arthur-increasing-returns.md": {
-        "tokens": 5029,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 10,
-        "budget": 8043
-      },
-      "reference-arthur-nature-of-technology.md": {
-        "tokens": 4244,
-        "cap": 14000,
-        "depth": "study",
-        "type": "text",
-        "sections": 11,
-        "budget": 8275
       },
       "reference-bessis-mathematica.md": {
         "tokens": 2745,
@@ -185,6 +162,6 @@
         "budget": 8496
       }
     },
-    "books": 21
+    "books": 19
   }
 }

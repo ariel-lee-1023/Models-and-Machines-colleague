@@ -1,12 +1,10 @@
 {
-  "date": "2026-09-27",
-  "method": "script-density estimates; targets are not floors; existing references preserved",
+  "date": "2026-09-20",
+  "method": "script-density estimate; budget targets are not floors",
   "tokens": {
-    "SKILL.md": 4461,
+    "SKILL.md": 4484,
     "references/reference-agre-computation-and-human-experience.md": 1910,
     "references/reference-agre-rosenschein-interaction-agency.md": 2951,
-    "references/reference-arthur-increasing-returns.md": 5029,
-    "references/reference-arthur-nature-of-technology.md": 4244,
     "references/reference-bessis-mathematica.md": 2745,
     "references/reference-brooks-design-of-design.md": 1882,
     "references/reference-brooks-mythical-man-month.md": 1916,
@@ -24,10 +22,5 @@
     "references/reference-weizenbaum-computer-power-human-reason.md": 1921,
     "references/reference-wiener-human-use-human-beings.md": 1631,
     "references/reference-winograd-flores-computers-and-cognition.md": 1836
-  },
-  "arthur_planning_targets": {
-    "nature": 8275,
-    "returns": 10650
-  },
-  "selection_note": "Focused fold-in retains methods, conditions and decision-changing exceptions below book-size planning targets. No padding to meet targets; full proofs and peripheral discussions excluded explicitly."
+  }
 }

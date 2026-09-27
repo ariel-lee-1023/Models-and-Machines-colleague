@@ -8,7 +8,9 @@ I use Edward A. Lee's M1–M5 anchor to keep descriptions, directions of fit, co
 
 When a coding assistant speeds up delivery, I follow what happens next: does the review backlog grow, do defects become visible only later, and do reviewers gain or lose opportunities to learn? I make those mechanisms and their assumptions explicit. I also ask whether a person can explain an unfamiliar case, detect a misleading answer, and change the arrangement. Correct output, understanding, and authority to act each need their own evidence. I compare interventions and propose observations that could change my recommendation.
 
-This Agent Skill supports engineering design and critique through source references on computing, system dynamics, situated action, proof, trust, and the cultivation of understanding. Technology arrival-date forecasting is outside its scope.
+When a team proposes replacing an entrenched platform with a technically better one, I ask two different questions. What phenomena, components, and engineering knowledge make the replacement workable? And what learning, complements, coordination, or expectations keep the incumbent in place? I distinguish a possible combination from an embodied invention, adoption from technical success, and a stable path from an irreversible one. I examine who would bear the costs of changing it and what evidence would justify the move. A successful new component can also change what becomes possible next.
+
+This Agent Skill supports engineering design and critique through source references on computing, system dynamics, situated action, proof, trust, the cultivation of understanding, and the generation and historical stabilization of technologies. Technology arrival-date forecasting is outside its scope.
 
 ## Edward A. Lee anchor
 
@@ -43,6 +45,10 @@ git clone https://github.com/ariel-lee-1023/Models-and-Machines-colleague.git \
 Use one installation approach appropriate to your host. If its skill location differs, place the complete root skill and `references/` tree there. Do not install `SKILL.md` without its references. A checkout that cannot preserve symlinks can load the root skill directly.
 
 Example requests:
+
+- “Our new architecture works in a prototype. What remains between technical possibility, invention, adoption, and lock-in?”
+- “This standard dominates despite a stronger laboratory alternative. Trace the reinforcing loop, identify switching-cost bearers, and evaluate a migration.”
+- “Which components and engineering practices made this invention possible, and what later designs did it enable?”
 
 - “Our coding assistant speeds up delivery but reviewers diagnose fewer failures themselves. Trace the feedback and propose a testable intervention.”
 - “This technology reduces energy per task. What assumptions connect that gain to lower total resource use?”
@@ -79,12 +85,23 @@ Only the shared core is loaded initially. Its task-based routing selects the rel
 | [Limits to Growth: The 30-Year Update](references/reference-meadows-randers-limits-to-growth.md) | Donella Meadows, Jorgen Randers, Dennis Meadows | Growth, sources and sinks, overshoot, conditional scenarios |
 | [Mathematica](references/reference-bessis-mathematica.md) | David Bessis; translated by Kevin Frey | Cultivated intuition, representations, practice and correction |
 | [The Mathematician’s Mind](references/reference-hadamard-mathematicians-mind.md) | Jacques Hadamard | Discovery, verification, diverse modes of thought; historical testimony |
+| [The Nature of Technology: What It Is and How It Evolves](references/reference-arthur-nature-of-technology.md) | W. Brian Arthur | Generative theory: phenomena, recursive composition, invention, domains, structural deepening, redomaining |
+| [Increasing Returns and Path Dependence in the Economy](references/reference-arthur-increasing-returns.md) | W. Brian Arthur; chapter coauthors identified in the reference | Selection and stabilization: adoption feedback, contingency, competition, lock-in and its limits |
+
+Arthur’s books have distinct roles:
+
+| Question | Contribution |
+|---|---|
+| Where do new technological forms come from? | *The Nature of Technology*: phenomena, recursive composition, domains, invention, structural deepening, and changing repertoires |
+| Why does one technological path dominate and resist reversal? | *Increasing Returns*: adoption competition, learning, coordination, information, expectations, and conditional lock-in |
+
+Together they support **composition → invention → competition → reinforcement → stabilization → possible redirection**. This is an inquiry with feedback and overlap, not a forecast or mandatory sequence. The generative layer connects to Simon, Lee, and Brooks; the selection layer connects to Meadows and the institutions and practices through which technologies are adopted. Recursive composition does not by itself prove nondeterminism, and dominance alone establishes neither superiority nor inefficiency.
 
 ## Repository layout
 
 ```text
 SKILL.md                     Shared reasoning core and loading triggers
-references/                  Nineteen canonical source references
+references/                  Twenty-one canonical source references
 AGENTS.md                    Project discovery and maintenance instructions
 README.md
 LICENSE
@@ -98,13 +115,15 @@ The root skill and references are the only runtime copy. The relative symlink su
 
 ## Fidelity and limitations
 
-Built with Books-to-Skill-Refs from nineteen supplied Markdown files using structural probes and targeted reading. The references preserve concepts and decision boundaries through synthetic prose, chapter locators, and compact reconstructed examples. They are selective working references, not complete substitutes for the books, implementation manuals, or reproductions of formal proofs.
+Built with Books-to-Skill-Refs from twenty-one supplied Markdown files using structural probes and targeted reading. The references preserve concepts and decision boundaries through synthetic prose, chapter locators, and compact reconstructed examples. They are selective working references, not complete substitutes for the books, implementation manuals, or reproductions of formal proofs.
 
 The Weizenbaum Markdown contained only page markers; its matching local PDF was OCRed. Cleaner PDF text also repaired fragmented passages in the interaction anthology and the 1975 Brooks source. OCR and conversion can still contain errors. The original Brooks edition does not include later anniversary essays. Later introductions and forewords are distinguished from the original authors' arguments. See the [source and coverage ledger](fidelity-ledger/source-and-coverage-ledger.md) and [source manifest](fidelity-ledger/source-manifest.json).
 
 The core preserves disagreements rather than claiming consensus. It distinguishes formal results, philosophical interpretations, and new design applications. Historical examples do not establish present tool capabilities, safety, law, adoption, or forecasts. Important new technical or empirical claims need current authoritative evidence.
 
 The 2026-09-20 fold-in connects system behavior with the practices needed to understand and reshape it. World3's dated scenarios remain conditional; Bessis's reflective account and Hadamard's selected testimony are not universal learning laws. The proposed competence tests are new design applications. English remains the default output language, matching the supplied editions and existing project guidance.
+
+The 2026-09-27 Arthur enhancement preserves all nineteen earlier reference files. It adds separate generative and selection accounts, an integrated historical inquiry in the core, and task routes for architecture, standards, and trajectory change. The supplied *Increasing Returns* conversion has damaged equations and tables; this reference retains readable mechanisms and conditions and does not claim to reproduce the full proofs. See the [Arthur fold-in review](fidelity-ledger/fold-in-2026-09-27.md).
 
 ## Validation
 

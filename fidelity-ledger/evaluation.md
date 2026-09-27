@@ -33,3 +33,7 @@ Date: 2026-09-11. Method: construction-time editorial review of the finished cor
 The review checks that the intended distinctions are available and reachable. It does not establish that every host will reliably use them, that every source claim has been independently verified, or that all relevant passages in approximately fifteen full books were read. Reference compression is deliberate: formal derivations, detailed algorithms, full transcripts, and current empirical assessments remain outside the runtime.
 
 Future evaluation should sample actual responses to unseen design cases, score warranted scope and useful design consequences separately, and include cases where the Lee lens is not sufficient. Tag presence is necessary for this build but is not proof of tag relevance or extraction completeness.
+
+## Arthur enhancement (2026-09-27)
+
+See [fold-in review](fold-in-2026-09-27.md) for editorial development cases and a worked migration application. The prior four tasks remain unchanged in substance; eight new Arthur tasks cover generation, inapplicability, cross-source relations, migration, counterforces and unsupported claims. Independent behavioral execution remains unrun because no evaluation endpoint/model is configured. No improvement, final acceptance, or absence of regressions is asserted from mechanical checks.

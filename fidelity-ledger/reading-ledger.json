@@ -15,6 +15,14 @@
     "hadamard": {
       "lines": 6306,
       "output_budget": 7800
+    },
+    "arthur-nature": {
+      "lines": 1785,
+      "output_budget": 8275
+    },
+    "arthur-returns": {
+      "lines": 10262,
+      "output_budget": 10650
     }
   },
   "reads": [
@@ -393,7 +401,405 @@
       "end": 3182,
       "tokens": 755,
       "reason": "targeted evidence probe"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 188,
+      "end": 214,
+      "tokens": 2528,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 220,
+      "end": 276,
+      "tokens": 5874,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 316,
+      "end": 350,
+      "tokens": 3177,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 238,
+      "end": 256,
+      "tokens": 1861,
+      "reason": "verification",
+      "question": "First excerpt was truncated: verify modularity costs and recursive structure.",
+      "resolution": "Source explicitly distinguishes reusable functional assemblies, partition costs, and crosslinked hierarchy."
+    },
+    {
+      "source": "arthur-nature",
+      "start": 370,
+      "end": 380,
+      "tokens": 1160,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 414,
+      "end": 432,
+      "tokens": 1358,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 452,
+      "end": 458,
+      "tokens": 535,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 554,
+      "end": 562,
+      "tokens": 799,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 596,
+      "end": 604,
+      "tokens": 881,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 644,
+      "end": 652,
+      "tokens": 621,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 664,
+      "end": 668,
+      "tokens": 474,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 694,
+      "end": 704,
+      "tokens": 1299,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 718,
+      "end": 728,
+      "tokens": 1130,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 796,
+      "end": 802,
+      "tokens": 730,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 810,
+      "end": 816,
+      "tokens": 290,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 836,
+      "end": 848,
+      "tokens": 1450,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 906,
+      "end": 918,
+      "tokens": 1241,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 1032,
+      "end": 1068,
+      "tokens": 2275,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 1110,
+      "end": 1118,
+      "tokens": 600,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 1144,
+      "end": 1152,
+      "tokens": 669,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 1190,
+      "end": 1196,
+      "tokens": 530,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 1278,
+      "end": 1284,
+      "tokens": 645,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 1452,
+      "end": 1650,
+      "tokens": 2660,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 1814,
+      "end": 1965,
+      "tokens": 1763,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 2030,
+      "end": 2178,
+      "tokens": 2193,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 2361,
+      "end": 2425,
+      "tokens": 750,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 2690,
+      "end": 2785,
+      "tokens": 973,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 3795,
+      "end": 3905,
+      "tokens": 1220,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 4036,
+      "end": 4105,
+      "tokens": 1150,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 4258,
+      "end": 4365,
+      "tokens": 1242,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 5955,
+      "end": 6125,
+      "tokens": 2263,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 6440,
+      "end": 6495,
+      "tokens": 651,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 6755,
+      "end": 6915,
+      "tokens": 1787,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 7108,
+      "end": 7180,
+      "tokens": 936,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 7330,
+      "end": 7410,
+      "tokens": 1111,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 7995,
+      "end": 8075,
+      "tokens": 924,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 8495,
+      "end": 8585,
+      "tokens": 1360,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 9400,
+      "end": 9470,
+      "tokens": 459,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 9534,
+      "end": 9577,
+      "tokens": 583,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 10131,
+      "end": 10165,
+      "tokens": 358,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 1068,
+      "end": 1080,
+      "tokens": 566,
+      "reason": "verification",
+      "question": "Complete the six-event mechanism and check whether it is a required sequence.",
+      "resolution": "Steps 5 and 6 add further components and price readjustment; source explicitly states overlap and cascades."
+    },
+    {
+      "source": "arthur-nature",
+      "start": 1286,
+      "end": 1300,
+      "tokens": 1174,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 790,
+      "end": 875,
+      "tokens": 1345,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 2470,
+      "end": 2545,
+      "tokens": 1018,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 5346,
+      "end": 5390,
+      "tokens": 493,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 5810,
+      "end": 5860,
+      "tokens": 474,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 7830,
+      "end": 7890,
+      "tokens": 606,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 8080,
+      "end": 8130,
+      "tokens": 609,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 2550,
+      "end": 2590,
+      "tokens": 808,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 10131,
+      "end": 10143,
+      "tokens": 254,
+      "reason": "verification",
+      "question": "Does a general fixed-point result guarantee a vertex outcome?",
+      "resolution": "No; vertex convergence invokes the additional strong S-property. Full damaged formulation explicitly excluded."
+    },
+    {
+      "source": "arthur-nature",
+      "start": 710,
+      "end": 716,
+      "tokens": 932,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-nature",
+      "start": 1248,
+      "end": 1254,
+      "tokens": 628,
+      "reason": "targeted source evidence"
+    },
+    {
+      "source": "arthur-returns",
+      "start": 4110,
+      "end": 4132,
+      "tokens": 416,
+      "reason": "verification",
+      "question": "Does public information alone remove selection failure?",
+      "resolution": "Full-public-knowledge model can still select an inferior option; added explicit counterexample in chapter 5."
+    },
+    {
+      "source": "arthur-returns",
+      "start": 4370,
+      "end": 4424,
+      "tokens": 1060,
+      "reason": "verification",
+      "question": "Does public information alone remove selection failure?",
+      "resolution": "Full-public-knowledge model can still select an inferior option; added explicit counterexample in chapter 5."
+    },
+    {
+      "source": "arthur-returns",
+      "start": 4424,
+      "end": 4465,
+      "tokens": 580,
+      "reason": "verification",
+      "question": "Does public information alone remove selection failure?",
+      "resolution": "Full-public-knowledge model can still select an inferior option; added explicit counterexample in chapter 5."
     }
   ],
-  "limitations": "Records count cleaned tokens emitted for targeted probes, an upper bound on model-visible reading where tool output was truncated. Initial heading/frontmatter inspection and direct early excerpts are not included. Truncated critical passages were checked through smaller follow-up probes; this is not exhaustive reading."
+  "limitations": "Prior ledger limitations retained in pre-existing entries. Arthur entries count cleaned text emitted by the reader; two oversized calls were truncated, so tokens are an upper bound on model-visible reading. Metadata/TOC and heading searches are excluded. Initial PDF cleanup sometimes discarded table fragments; critical P\u00f3lya and theorem-scope passages were checked again with blanks-only cleaning. Source-local coordinates refer to supplied Markdown. This is selective inspection, not exhaustive reading.",
+  "expenditure_review_2026_09_27": "Nature emitted 33,427 estimated tokens, just above 4 \u00d7 8,275 planning budget; review ended broad reading, allowing only claim-specific completion. Returns remained below 4 \u00d7 10,650. No full-corpus read. Later returns probes resolved a material information-access exception."
 }

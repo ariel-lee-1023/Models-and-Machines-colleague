@@ -1,10 +1,10 @@
 {
   "passed": true,
   "errors": [],
-  "source_count": 21,
-  "reference_count": 21,
-  "core_sha256": "45cb3fc155b44abe1ac46299242f9f6370ad325316bd45bf37de6cf1367ce9f0",
-  "total_tagged_reference_units": 585,
+  "source_count": 19,
+  "reference_count": 19,
+  "core_sha256": "268fd43e831c29ac586845f8f8006421740cb6788c2b235ba386eb859d4a8ac2",
+  "total_tagged_reference_units": 495,
   "references": {
     "references/reference-agre-computation-and-human-experience.md": {
       "sha256": "46864ca105527cb80bc73578f56fa59bce10502d256c4cd643cc9349bccd27ec",
@@ -25,28 +25,6 @@
         "M2": 5,
         "M3": 27,
         "M4": 19,
-        "M5": 0
-      }
-    },
-    "references/reference-arthur-increasing-returns.md": {
-      "sha256": "1bdb7f8970c0d5176d133f116afdab15db98cccc5570785a7281917eebe39230",
-      "tagged_units": 48,
-      "tag_counts": {
-        "M1": 47,
-        "M2": 2,
-        "M3": 46,
-        "M4": 18,
-        "M5": 0
-      }
-    },
-    "references/reference-arthur-nature-of-technology.md": {
-      "sha256": "d30f4754f4f59216f84806252b17a49c2638fb1f1da4a1eabaf7ea32f1c95ef0",
-      "tagged_units": 42,
-      "tag_counts": {
-        "M1": 32,
-        "M2": 0,
-        "M3": 42,
-        "M4": 29,
         "M5": 0
       }
     },

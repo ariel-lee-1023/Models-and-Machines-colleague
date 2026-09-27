@@ -30,21 +30,5 @@
     "unresolved": [],
     "coverage_fraction": 0.14922296225816684,
     "budget_alert": false
-  },
-  "arthur-nature": {
-    "unique_lines": 360,
-    "repeated_lines": 20,
-    "input_tokens": 33427,
-    "unresolved": [],
-    "coverage_fraction": 0.20168067226890757,
-    "budget_alert": true
-  },
-  "arthur-returns": {
-    "unique_lines": 2344,
-    "repeated_lines": 14,
-    "input_tokens": 30046,
-    "unresolved": [],
-    "coverage_fraction": 0.2284155135451179,
-    "budget_alert": false
   }
 }

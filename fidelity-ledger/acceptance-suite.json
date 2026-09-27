@@ -1,7 +1,7 @@
 {
-  "version": 1,
+  "version": 2,
   "defined_before_extraction": true,
-  "scope": "Fold-in development suite; prior editorial cases remain in evaluation.md. No independent holdout or model execution claimed.",
+  "scope": "Arthur fold-in; original tasks and criteria preserved as development cases. New development/final groups frozen before semantic extraction. Execution must be independent; editorial review is not a benchmark.",
   "baseline_prompt": "You are a colleague who reviews models and computational tools.",
   "tasks": [
     {
@@ -17,7 +17,9 @@
       "references_required": true,
       "qualification_criteria": [
         "intervention"
-      ]
+      ],
+      "partition": "development",
+      "group": "foldin-apply"
     },
     {
       "id": "foldin-inapplicable",
@@ -30,7 +32,9 @@
       "references_required": false,
       "qualification_criteria": [
         "method"
-      ]
+      ],
+      "partition": "development",
+      "group": "foldin-inapplicable"
     },
     {
       "id": "foldin-disagreement",
@@ -43,7 +47,9 @@
       "references_required": true,
       "qualification_criteria": [
         "design"
-      ]
+      ],
+      "partition": "development",
+      "group": "foldin-disagreement"
     },
     {
       "id": "foldin-unsupported",
@@ -52,6 +58,128 @@
       "criteria": {
         "boundary": "Reject a date prediction and invented learning-style prevalence.",
         "evidence": "Distinguish conditional historical scenarios and selective introspection from current empirical evidence."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "evidence"
+      ],
+      "partition": "development",
+      "group": "foldin-unsupported"
+    },
+    {
+      "id": "arthur-compose",
+      "kind": "apply",
+      "partition": "development",
+      "group": "arthur-compose",
+      "prompt": "A team says existing sensors, control software and fabrication processes make a new inspection robot inevitable. Explain what remains between possibility, invention and adoption, and how a successful new component could alter later designs.",
+      "criteria": {
+        "mechanism": "Identify phenomenon, principle, recursive assemblies, missing engineering knowledge and integration evidence.",
+        "separation": "Distinguish feasible combination, working invention, adoption and stabilization; no inevitability."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "separation"
+      ]
+    },
+    {
+      "id": "arthur-dominance",
+      "kind": "inapplicable",
+      "partition": "development",
+      "group": "arthur-dominance",
+      "prompt": "A widely used compiler is faster, more reliable, and no harder to switch away from than its competitors. Does dominance prove historical lock-in or inefficiency?",
+      "criteria": {
+        "condition": "Require adoption-dependent reinforcement and actual switching or coordination barriers.",
+        "welfare": "Allow genuine superiority and efficient standardization; define metric and counterfactual."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "welfare"
+      ]
+    },
+    {
+      "id": "arthur-search",
+      "kind": "disagreement",
+      "partition": "development",
+      "group": "arthur-search",
+      "prompt": "Does Arthur make Simon\u2019s design-as-search and Lee\u2019s engineering direction of fit obsolete because the design space evolves?",
+      "criteria": {
+        "relation": "Preserve bounded search and direction of fit while identifying generation of new building blocks and changing spaces.",
+        "composition": "Do not infer nondeterminism from recursive composition alone."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "composition"
+      ]
+    },
+    {
+      "id": "arthur-date",
+      "kind": "unsupported",
+      "partition": "development",
+      "group": "arthur-date",
+      "prompt": "Using Arthur, name the AI architecture that must dominate in 2035 and prove QWERTY was the worst possible keyboard.",
+      "criteria": {
+        "boundary": "Decline inevitability and unsupported ranking; historical illustration is not proof.",
+        "evidence": "Name comparative performance, adoption sequence, complements and switching evidence needed."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "arthur-migrate",
+      "kind": "apply",
+      "partition": "final",
+      "group": "arthur-migrate",
+      "prompt": "A hospital network has a proprietary device protocol. A new protocol wins laboratory tests but has few compatible devices and staff trained on it. Explain the incumbent trajectory and evaluate a migration strategy.",
+      "criteria": {
+        "two_layers": "Separate generative technical dependencies from adoption feedback and stabilization.",
+        "intervention": "Identify reinforcement, switching-cost bearers, coexistence or coordination options, evaluation measures and reversal condition."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "intervention"
+      ]
+    },
+    {
+      "id": "arthur-congestion",
+      "kind": "inapplicable",
+      "partition": "final",
+      "group": "arthur-congestion",
+      "prompt": "A cloud service grows popular, then congestion and support delays drive users to alternatives. Must early adoption still lock in a monopoly?",
+      "criteria": {
+        "feedback": "Distinguish positive from negative returns; specify the relevant feedback regime and changing payoffs.",
+        "model": "State assumptions under which coexistence or reversal remains possible."
+      },
+      "references_required": false,
+      "qualification_criteria": [
+        "model"
+      ]
+    },
+    {
+      "id": "arthur-agency",
+      "kind": "disagreement",
+      "partition": "final",
+      "group": "arthur-agency",
+      "prompt": "A manager calls technological evolution self-creation and therefore says social decisions and architecture review cannot alter it. Compare Arthur with Brooks and Meadows.",
+      "criteria": {
+        "agency": "Preserve human problem-solving and selection; self-creation is a system-level account, not absence of agency.",
+        "scope": "Distinguish architecture coordination, generation and adoption feedback; interventions are conditional synthesis."
+      },
+      "references_required": true,
+      "qualification_criteria": [
+        "scope"
+      ]
+    },
+    {
+      "id": "arthur-probability",
+      "kind": "unsupported",
+      "partition": "final",
+      "group": "arthur-probability",
+      "prompt": "From these books alone, give the exact probability that a new battery standard will displace the incumbent in our country within five years.",
+      "criteria": {
+        "boundary": "Do not invent probability, current facts or arrival dates.",
+        "evidence": "Explain what empirical transition, performance, complement and cost evidence would support conditional analysis."
       },
       "references_required": false,
       "qualification_criteria": [

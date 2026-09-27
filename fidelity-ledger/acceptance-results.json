@@ -1,9 +1,10 @@
 {
   "status": "unrun",
-  "date": "2026-09-20",
-  "reason": "No evaluation endpoint or model configured; no independent fresh-context runs performed.",
+  "date": "2026-09-27",
+  "reason": "EVALUATION_ENDPOINT, EVALUATION_MODEL and GRADING_MODEL are unset; no independent fresh-context model runs were performed.",
   "suite": "acceptance-suite.json",
   "runs": {},
   "improvement_claim": "No controlled behavioral improvement or regression result established.",
-  "editorial_review": "fold-in-2026-09-20.md"
+  "editorial_review": "fold-in-2026-09-27.md",
+  "prior_records": "pre-arthur-2026-09-27/"
 }

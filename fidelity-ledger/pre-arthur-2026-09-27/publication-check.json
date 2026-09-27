@@ -1,0 +1,17 @@
+{
+  "date": "2026-09-20",
+  "validated_content_commit": "e80f8acae9b8d5aa3058177f89859c1e46bc4d09",
+  "checks": {
+    "committed_layout": "passed",
+    "committed_runtime": "passed",
+    "final_checkout_runtime": "passed"
+  },
+  "remote_sha_matches_local": true,
+  "remote_tree_matches_local": true,
+  "symlink_mode": "120000",
+  "reference_count": 19,
+  "runtime_hashes_match": true,
+  "unrelated_local_files_unchanged": true,
+  "checkout_layout_exception": "Strict whole-directory layout validation rejects the pre-existing untracked docs/ and warns about ignored .DS_Store. Neither is published. Committed-tree layout and final-checkout runtime audits pass.",
+  "note": "The committed-tree check uses an export to temporary scratch, not a second repository clone. No behavioral model evaluation was run."
+}

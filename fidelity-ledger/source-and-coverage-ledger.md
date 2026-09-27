@@ -232,3 +232,19 @@ Rerun the published-layout validator, the two separate instruction scans, and ch
 ## 2026-09-20 fold-in
 
 Four sources were added, bringing the library to nineteen. See [the additional coverage audit](coverage-audit.md) and [the fold-in review](fold-in-2026-09-20.md). The original fifteen-source extraction record above remains historical.
+
+## 2026-09-27 — Arthur: generation, selection and historical stabilization
+
+Two sources added (S20–S21), bringing the library to twenty-one. [Arthur fold-in review](fold-in-2026-09-27.md) records scope, edition limits and editorial applications. See source-manifest.json for hashes and retained framework groups. All previous references remain byte-identical. The source documents were treated as data, not agent instructions.
+
+| Source sections | Retained or compressed | Excluded and reason |
+|---|---|---|
+| Nature chs. 1–3 | Combinatorial evolution; three principles and three technology senses; base principle; functionality; modularity and recursion; captured phenomena; purposed systems; reciprocal science/technology | Extended illustrative inventories and biological genes analogy omitted; not needed to judge an engineering claim |
+| Nature chs. 4–6 | Domains, domaining, grammar; standard engineering and reusable solutions; novelty criterion; need/effect routes; principle transfer; embodiment; laser-printing reconstruction | Invention biographies and science/mathematics excursions omitted; pyramid of causality compressed into situated repertoire and nested solutions, not a lone-inventor story |
+| Nature chs. 7–8 | Internal replacement, structural deepening, adaptive stretch, incumbent constraints; domains emerging, redomaining and adoption as commingling | National competitiveness prescriptions and historical rate estimates omitted; task is conditional engineering/historical explanation, not national strategy or arrival forecasting |
+| Nature chs. 9–11 | Niches, active collection, all six core events, historical contingency, changing economic arrangements, problems from solutions, generative economy and possibility/desirability distinction | Circuit-evolution experiment implementation, broad biology predictions and lengthy philosophical/literary exposition omitted; no complete computational or normative theory claimed |
+| Increasing Returns chs. 1–2 | Reinforcement versus diminishing returns; two-type adoption; learning by using; sponsored distinction; small events; barriers; four outcome properties; path efficiency; policy limits | Damaged payoff table and exact absorption-probability expression omitted; full empirical verdicts on historical winners unsupported |
+| Increasing Returns chs. 3–4, 6, 10 | Nonlinear Pólya allocation, expected motion, conditional convergence; agglomeration and shadows; necessity/chance contrast; bounded/diseconomy and movement exceptions | Complete strong laws, S-property formulation and proofs omitted due to source damage and compact scope; full multi-industry urban explanation not claimed |
+| Increasing Returns chs. 5, 7–9 | Information contagion and constriction, full-public-knowledge exception; four generic reinforcement sources; fixed versus expanding population; strategic/expectations/policy limits; learning automaton/calibration limits; strategic-pricing discount dependence | Numerical calibrations, optimal price equations and proof appendices omitted; trade literature and spatial mechanisms compressed; no current market recommendation or neural learning law |
+
+The two books share themes without being collapsed: Nature also discusses persistence, and the collection discusses learning and novelty-adjacent processes. Their assigned roles are task-directed principal contributions, not a claim of mutually exclusive subject matter. Modern migration and interoperability proposals are cross-source design synthesis, not source-validated policies.

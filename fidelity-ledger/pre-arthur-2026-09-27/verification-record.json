@@ -1,18 +1,15 @@
 {
-  "date": "2026-09-27",
+  "date": "2026-09-20",
   "profile": "published-repo",
-  "source_count": 21,
-  "prior_reference_files_unchanged": 19,
-  "anchor_wording_unchanged": true,
-  "architecture": "Existing destination architecture preserved; two canonical references added.",
-  "behavioral_acceptance": "unrun; evaluation endpoint/model absent",
-  "editorial_review": "fold-in-2026-09-27.md",
+  "source_count": 19,
+  "prior_reference_files_unchanged": 15,
+  "architecture": "Existing destination architecture preserved.",
+  "behavioral_acceptance": "unrun; no endpoint/model configured",
+  "editorial_review": "fold-in-2026-09-20.md",
   "runtime_sha256": {
-    "SKILL.md": "45cb3fc155b44abe1ac46299242f9f6370ad325316bd45bf37de6cf1367ce9f0",
+    "SKILL.md": "268fd43e831c29ac586845f8f8006421740cb6788c2b235ba386eb859d4a8ac2",
     "references/reference-agre-computation-and-human-experience.md": "46864ca105527cb80bc73578f56fa59bce10502d256c4cd643cc9349bccd27ec",
     "references/reference-agre-rosenschein-interaction-agency.md": "8170332a98d22b4edbc6389d2e949673dc4d9fabf4507b0a80765e5eba80682e",
-    "references/reference-arthur-increasing-returns.md": "1bdb7f8970c0d5176d133f116afdab15db98cccc5570785a7281917eebe39230",
-    "references/reference-arthur-nature-of-technology.md": "d30f4754f4f59216f84806252b17a49c2638fb1f1da4a1eabaf7ea32f1c95ef0",
     "references/reference-bessis-mathematica.md": "1f54eb9e55f16035243394778fed1e7b482846a9ea5255c49284c6ab3d5b3b8f",
     "references/reference-brooks-design-of-design.md": "59ed7bf9784e2da0c36152750d581e0e065ec4f50a8eb735e38d1b27787c2f8e",
     "references/reference-brooks-mythical-man-month.md": "2c5c9d57172f4e05f497533f2fcbd355b2fdb98c13d72ed65f1a853cf2a85311",
@@ -31,22 +28,21 @@
     "references/reference-wiener-human-use-human-beings.md": "06c628e552aadd3e5ac21b3f513206384bb6566832af68adb8ab0ffa0837406b",
     "references/reference-winograd-flores-computers-and-cognition.md": "a21ff479ceeea3efaa96b00b86c8c63e41a9c2166643ef66f2fe9a4f587b3ce2"
   },
-  "validator_sha256": "c1a660f10d319ec6e8275e77adfa067d46536c569d43d9dc115a3f4eb33b8fab",
+  "validator_sha256": "06a349f4ea6b97a0f6c0a71b95ebb157af91af33bf26433edda553d8edf7a335",
   "scanner_sha256": "be4a5a83dca864b535c8012d5f25643592662611ca92ea807b9d25487fa4304f",
   "checks": [
-    "published-repo layout and budgets: zero errors and warnings",
-    "separate core/reference instruction scans: zero findings",
-    "runtime tags, links, routes, counts and discovery: pass",
-    "reading ledger: pass; Nature expenditure alert explicitly reviewed",
-    "all nineteen earlier references, five anchor formulations and LICENSE unchanged"
+    "published-repo layout and budgets",
+    "separate core and reference instruction scans",
+    "project runtime audit",
+    "reading ledger validation"
   ],
   "limitations": [
-    "Source conversion damage prevents complete formal theorem reproduction.",
-    "Reading tokens are emission estimates; truncated output makes them an upper bound on model-visible inspection.",
-    "Editorial review and structural checks do not establish behavioral quality or regression absence."
+    "Editorial cases are not independent model runs.",
+    "Emitted reading tokens are an upper bound where tool output was truncated; initial metadata and direct excerpts are outside the partial ledger.",
+    "Mechanical checks do not establish authorial fidelity or behavioral improvement."
   ],
   "preserved_local_changes": [
-    "AGENTS.md",
+    "AGENTS.md expanded language guidance",
     "untracked docs/"
   ]
 }

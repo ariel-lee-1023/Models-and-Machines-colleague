@@ -85,3 +85,20 @@ Outside-inventory audit:
 Planning budgets from the tool's study/text formula: 7 chapters 7,269 tokens; 8 chapters 7,543; 19 chapters approximately 9,800; 9 chapters 7,800. These are targets, not floors. The references deliberately remain below those targets; selected methods, prerequisites, exceptions and evidential boundaries take priority over padding. The core remains below the 4,500-token hard cap. Token counts are estimates from the repository's script-density counter.
 
 The reading ledger counts emitted cleaned slices and marks truncation limits; headings, bibliographic inspection, and early direct excerpts are not included. It is a partial audit, not a percentage claim of exhaustive reading. The core and README synthesize across sources; new intervention protocols and competence measures are labeled as proposals. All supplied editions are English, matching the existing explicit English default. A non-English question alone retains that default; an explicit language request changes it for its stated scope (editorial inspection only).
+
+## Arthur audit — 2026-09-27
+
+Coordinates below are one-based lines in the supplied Markdown, not printed pages. Samples extend beyond the user's initial framework list; they do not establish exhaustive coverage.
+
+| Source-local span | Reason to sample | Qualification and disposition |
+|---|---|---|
+| Nature 370–380 (Technology and Science) | Check one-way “science produces technology” inference outside the initial list | Science also depends on technological instruments and methods; retained as reciprocal relationship, avoiding automatic science-to-deployment inference |
+| Nature 1278–1300 (closing human purposes) | Check normative exception to a wholly generative account | Possibility is not desirability; retained compactly, excluding extended philosophical and film exposition |
+| Nature 1068–1080 (end of six-event mechanism) | Verify whether sequence is mandatory | Events overlap and cascade; retained explicitly in source reference, core and README |
+| Increasing Returns 6755–6915 (fixed-population/strategy/policy) | Challenge permanent-lock-in generalization | Long dominance with transitions is distinct from absorption; retained with pricing and policy qualifications |
+| Increasing Returns 7830–7890 and 8080–8130 (learning calibration) | Check limits outside requested technology competition focus | Calibration is preliminary; discrimination and problem interdependence matter; retained without universal learning claims |
+| Increasing Returns 4110–4132, 4370–4465 (information cases) | Follow-up on whether broader access reliably reopens alternatives | Public information still permits inferior selection when unchosen alternatives stop producing evidence; added an explicit counterexample and did not promise a universal dashboard cure |
+| Increasing Returns 2550–2590 (classical Pólya) | Verify worked example against source with minimal cleaning | One ball of each color, same-color reinforcement, uniform random limiting share retained; no monopoly inference |
+| Increasing Returns 10131–10143 (strong laws conclusion) | Recheck formal scope where conversion is damaged | Limiting function/Lyapunov/continuity/accessibility conditions retained as scope; complete S-property and theorem details explicitly deferred to clean source |
+
+Nature emitted roughly four times its planning budget; broad reading ended after an expenditure review. Final reads were limited to the phenomenon-to-invention and generative-economy claims. Two large tool outputs were truncated; the reading ledger counts emission as an upper bound, and critical missing material received smaller checks. PDF cleanup sometimes lost table fragments; critical formal and exception passages were rechecked with blanks-only cleanup. This limits source fidelity claims and is not hidden by structural validation.
