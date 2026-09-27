@@ -1,17 +1,23 @@
 {
-  "date": "2026-09-20",
-  "validated_content_commit": "e80f8acae9b8d5aa3058177f89859c1e46bc4d09",
+  "date": "2026-09-27",
+  "validated_content_commit": "eae105d8888553402e82bae6976b8fc16cc185d4",
+  "validated_content_tree": "7ff2d46f17d5dc75a029980c3b9a18b8ffbcf191",
   "checks": {
-    "committed_layout": "passed",
+    "staged_layout": "passed with zero errors/warnings",
+    "committed_layout": "passed with zero errors/warnings",
     "committed_runtime": "passed",
-    "final_checkout_runtime": "passed"
+    "final_checkout_runtime": "passed",
+    "core_instruction_scan": "zero findings",
+    "reference_instruction_scan": "zero findings"
   },
   "remote_sha_matches_local": true,
   "remote_tree_matches_local": true,
   "symlink_mode": "120000",
-  "reference_count": 19,
+  "reference_count": 21,
+  "prior_reference_files_unchanged": 19,
+  "anchor_wording_unchanged": true,
   "runtime_hashes_match": true,
   "unrelated_local_files_unchanged": true,
-  "checkout_layout_exception": "Strict whole-directory layout validation rejects the pre-existing untracked docs/ and warns about ignored .DS_Store. Neither is published. Committed-tree layout and final-checkout runtime audits pass.",
-  "note": "The committed-tree check uses an export to temporary scratch, not a second repository clone. No behavioral model evaluation was run."
+  "checkout_layout_note": "Pre-existing untracked docs/ and ignored local files are not published. Layout validation used a committed-tree export; final-checkout runtime audit passed.",
+  "note": "This record verifies the content commit before a following metadata-only commit records these results. The final remote SHA/tree is also verified after that metadata push. No independent behavioral model evaluation was run."
 }
