@@ -12,7 +12,40 @@ When a team proposes replacing an entrenched platform with a technically better 
 
 This Agent Skill supports engineering design and critique through source references on computing, system dynamics, situated action, proof, trust, the cultivation of understanding, and the generation and historical stabilization of technologies. Technology arrival-date forecasting is outside its scope.
 
-## Edward A. Lee anchor
+**Description → assumptions → composition → system in use → discriminating test.**
+
+[Workflow](#how-it-works) · [Use cases](#use-it-for) · [Install](#installation) · [Examples](#example-requests) · [Repository map](#repository-layout) · [Sources](#sources-and-their-responsibilities) · [Validation](#coverage-and-validation)
+
+## How it works
+
+```mermaid
+flowchart TD
+    accTitle: Reasoning and delivery workflow
+    accDescr: The task and evidence guide domain reasoning, the output and review.
+    input["Model, architecture, automated workflow or technology claim"]
+    frame["Apply the M1–M5 questions to the description and system"]
+    reason["Trace composition, feedback, situated work and authority"]
+    choice{"What needs to change or be tested?"}
+    primary["Bounded claim, specification or design revision"]
+    alternative["Intervention or migration comparison"]
+    review["Test divergence, understanding and power to respond"]
+    input --> frame --> reason --> choice
+    choice --> primary
+    choice --> alternative
+    primary --> review
+    alternative --> review
+    review -.->|Revisit when evidence changes| reason
+    classDef focus fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    classDef output fill:#dcfce7,stroke:#15803d,color:#14532d
+    classDef decision fill:#fef3c7,stroke:#b45309,color:#78350f
+    class frame,reason focus
+    class primary,alternative output
+    class choice,review decision
+```
+
+Description → assumptions → composition → system in use → discriminating test. The diagram summarizes the reasoning route; the question and available evidence determine which branches are useful.
+
+### Edward A. Lee anchor
 
 The user's five organizing commitments are retained in full in [SKILL.md](SKILL.md):
 
@@ -26,7 +59,16 @@ The user's five organizing commitments are retained in full in [SKILL.md](SKILL.
 
 Every substantive extracted unit has one or more relevant M1–M5 tags. Untagged candidates are excluded. Tags mean relevance to the anchor, not that every author endorses Lee or that each passage supports all five theses. M5's broad user formulation is kept visible alongside the more specific scope of Lee's deterministic composition argument; it is not presented as a theorem about every possible collection of models.
 
-## Use
+## Use it for
+
+- Review model-to-system claims, determinism and composition.
+- Explain feedback, workarounds and hidden human repair.
+- Compare design interventions and evidence for understanding.
+- Distinguish technological invention from adoption and lock-in.
+
+## Installation
+
+### Use
 
 Open this repository as an agent project. [AGENTS.md](AGENTS.md) directs domain conversations to the root skill, and the discovery alias points to that same canonical content.
 
@@ -44,7 +86,7 @@ git clone https://github.com/ariel-lee-1023/Models-and-Machines-colleague.git \
 
 Use one installation approach appropriate to your host. If its skill location differs, place the complete root skill and `references/` tree there. Do not install `SKILL.md` without its references. A checkout that cannot preserve symlinks can load the root skill directly.
 
-Example requests:
+## Example requests
 
 - “Our new architecture works in a prototype. What remains between technical possibility, invention, adoption, and lock-in?”
 - “This standard dominates despite a stronger laboratory alternative. Trace the reinforcing loop, identify switching-cost bearers, and evaluate a migration.”
@@ -62,7 +104,80 @@ Example requests:
 
 Only the shared core is loaded initially. Its task-based routing selects the relevant source references; each book is one independently loadable file. M-tags organize extraction and audit and need not appear in ordinary answers.
 
-## Sources
+## Repository layout
+
+```mermaid
+flowchart LR
+    accTitle: Repository structure and runtime loading
+    accDescr: The canonical core routes to references, while supporting files and maintenance records have separate roles.
+    root["Models-and-Machines-colleague/"]
+    root --> core["SKILL.md<br/>Reasoning core and loading triggers"]
+    core -->|Loads relevant depth| refs["references/<br/>Runtime reference library"]
+    root --> support0["AGENTS.md<br/>Project guidance"]
+    root --> support1["fidelity-ledger/<br/>Provenance and evaluation"]
+    root --> support2["LICENSE<br/>License"]
+    root --> alias0[".agents/skills/models-and-machines-colleague"]
+    alias0 -.->|Discovery alias| root
+    classDef runtime fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    classDef support fill:#f1f5f9,stroke:#64748b,color:#334155
+    class core,refs runtime
+    class support0,support1,support2 support
+```
+
+[Expert core](SKILL.md) · [Reference library](references/) · [Project guidance](AGENTS.md) · [Provenance and evaluation](fidelity-ledger/) · [License](LICENSE).
+
+The map reflects the repository’s existing architecture. Runtime references and human-facing maintenance or learning records have different loading roles.
+
+```text
+SKILL.md                     Shared reasoning core and loading triggers
+references/                  Twenty-one canonical source references
+AGENTS.md                    Project discovery and maintenance instructions
+README.md
+LICENSE
+.gitignore
+.agents/skills/
+  models-and-machines-colleague -> ../..
+fidelity-ledger/              Provenance, coverage, evaluation, validation
+```
+
+The root skill and references are the only runtime copy. The relative symlink supports project discovery. Maintainer records are kept in `fidelity-ledger/` and are not automatically loaded for domain answers.
+
+## Sources and their responsibilities
+
+```mermaid
+flowchart LR
+    accTitle: Sources and their primary responsibilities
+    accDescr: Task responsibilities connect the expert to its source material; groupings do not imply author agreement.
+    core["Expert core and task router"]
+    core --> g0["Models and composition"]
+    g0 --> s0_0["Lee · Plato and the Nerd<br/>Lee &amp; Seshia · Introduction to Embedded Systems<br/>Lee · The Coevolution"]
+    g0 --> s0_1["Simon · The Sciences of the Artificial"]
+    classDef group0 fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    class g0,s0_0,s0_1 group0
+    core --> g1["Situated work and judgment"]
+    g1 --> s1_0["Agre · Computation and Human Experience<br/>Agre &amp; Rosenschein, eds. · Interaction and Agency<br/>Suchman · Human–Machine Reconfigurations"]
+    g1 --> s1_1["Weizenbaum · Computer Power and Human Reason<br/>Smith · The Promise of Artificial Intelligence<br/>Winograd &amp; Flores · Understanding Computers and Cognition"]
+    classDef group1 fill:#dcfce7,stroke:#15803d,color:#14532d
+    class g1,s1_0,s1_1 group1
+    core --> g2["Design, proof and tools"]
+    g2 --> s2_0["MacKenzie · Mechanizing Proof<br/>Clark · Natural-Born Cyborgs<br/>Brooks · The Design of Design"]
+    g2 --> s2_1["Brooks · The Mythical Man-Month"]
+    classDef group2 fill:#fef3c7,stroke:#b45309,color:#78350f
+    class g2,s2_0,s2_1 group2
+    core --> g3["Feedback and understanding"]
+    g3 --> s3_0["Wiener · The Human Use of Human Beings<br/>Meadows · Thinking in Systems<br/>Meadows, Randers &amp; Meadows · Limits to Growth"]
+    g3 --> s3_1["Bessis · Mathematica<br/>Hadamard · The Mathematician’s Mind"]
+    classDef group3 fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    class g3,s3_0,s3_1 group3
+    core --> g4["Generation and stabilization"]
+    g4 --> s4_0["Arthur · The Nature of Technology<br/>Arthur · Increasing Returns and Path Dependence"]
+    classDef group4 fill:#ede9fe,stroke:#7c3aed,color:#4c1d95
+    class g4,s4_0 group4
+    classDef focus fill:#e0f2fe,stroke:#0369a1,color:#0c4a6e
+    class core focus
+```
+
+Connections show primary contributions, not a required reading order or agreement among authors. Full source details and qualifications follow; source-specific depth is available in the reference library.
 
 | Book | Author(s) | Principal contribution |
 |---|---|---|
@@ -97,23 +212,21 @@ Arthur’s books have distinct roles:
 
 Together they support **composition → invention → competition → reinforcement → stabilization → possible redirection**. This is an inquiry with feedback and overlap, not a forecast or mandatory sequence. The generative layer connects to Simon, Lee, and Brooks; the selection layer connects to Meadows and the institutions and practices through which technologies are adopted. Recursive composition does not by itself prove nondeterminism, and dominance alone establishes neither superiority nor inefficiency.
 
-## Repository layout
+## Coverage and validation
 
-```text
-SKILL.md                     Shared reasoning core and loading triggers
-references/                  Twenty-one canonical source references
-AGENTS.md                    Project discovery and maintenance instructions
-README.md
-LICENSE
-.gitignore
-.agents/skills/
-  models-and-machines-colleague -> ../..
-fidelity-ledger/              Provenance, coverage, evaluation, validation
+### Validation
+
+The build is checked against the metatool's published-repository layout and token budgets. Root `SKILL.md` and `references/` are scanned separately for anomalous instructions. A local audit checks tags, routes, relative links, source counts, and the discovery alias:
+
+```sh
+python3 fidelity-ledger/check_runtime.py
 ```
 
-The root skill and references are the only runtime copy. The relative symlink supports project discovery. Maintainer records are kept in `fidelity-ledger/` and are not automatically loaded for domain answers.
+See [validation results](fidelity-ledger/validation.json), [runtime audit](fidelity-ledger/runtime-audit.json), and [editorial evaluation](fidelity-ledger/evaluation.md). See the [fold-in review and worked case](fidelity-ledger/fold-in-2026-09-20.md) and [coverage audit](fidelity-ledger/coverage-audit.md). Editorial cases are construction-time reviews, not independent model benchmarks. The added behavioral suite is unrun: no evaluation endpoint/model was configured, and no controlled improvement or regression result is claimed. A clean instruction scan is advisory, not a security guarantee.
 
-## Fidelity and limitations
+## Limits
+
+### Fidelity and limitations
 
 Built with Books-to-Skill-Refs from twenty-one supplied Markdown files using structural probes and targeted reading. The references preserve concepts and decision boundaries through synthetic prose, chapter locators, and compact reconstructed examples. They are selective working references, not complete substitutes for the books, implementation manuals, or reproductions of formal proofs.
 
@@ -124,16 +237,6 @@ The core preserves disagreements rather than claiming consensus. It distinguishe
 The 2026-09-20 fold-in connects system behavior with the practices needed to understand and reshape it. World3's dated scenarios remain conditional; Bessis's reflective account and Hadamard's selected testimony are not universal learning laws. The proposed competence tests are new design applications. English remains the default output language, matching the supplied editions and existing project guidance.
 
 The 2026-09-27 Arthur enhancement preserves all nineteen earlier reference files. It adds separate generative and selection accounts, an integrated historical inquiry in the core, and task routes for architecture, standards, and trajectory change. The supplied *Increasing Returns* conversion has damaged equations and tables; this reference retains readable mechanisms and conditions and does not claim to reproduce the full proofs. See the [Arthur fold-in review](fidelity-ledger/fold-in-2026-09-27.md).
-
-## Validation
-
-The build is checked against the metatool's published-repository layout and token budgets. Root `SKILL.md` and `references/` are scanned separately for anomalous instructions. A local audit checks tags, routes, relative links, source counts, and the discovery alias:
-
-```sh
-python3 fidelity-ledger/check_runtime.py
-```
-
-See [validation results](fidelity-ledger/validation.json), [runtime audit](fidelity-ledger/runtime-audit.json), and [editorial evaluation](fidelity-ledger/evaluation.md). See the [fold-in review and worked case](fidelity-ledger/fold-in-2026-09-20.md) and [coverage audit](fidelity-ledger/coverage-audit.md). Editorial cases are construction-time reviews, not independent model benchmarks. The added behavioral suite is unrun: no evaluation endpoint/model was configured, and no controlled improvement or regression result is claimed. A clean instruction scan is advisory, not a security guarantee.
 
 ## License
 
