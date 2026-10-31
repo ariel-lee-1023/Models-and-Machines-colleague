@@ -4,14 +4,14 @@
 
 ## Mental Model (read first)
 
-[M1,M3] Weizenbaum asks what is lost when a human concern is recast as a computational problem. A model necessarily selects what matters, and that selection already involves purpose and judgment. Demonstrating a technique's feasibility does not decide whether its use is appropriate, who has authority to choose, or what obligations a person should retain.
+[M1,M3] Recasting a human concern as a computational problem can lose aspects of that concern. A model necessarily selects what matters, and that selection already involves purpose and judgment. Demonstrating a technique's feasibility does not decide whether its use is appropriate, who has authority to choose, or what obligations a person should retain.
 
 ## Frameworks & Structure
 
 ### Introduction: ELIZA and interpretive investment
 
 - [M1,M3] **ELIZA and DOCTOR** (Introduction, pp. 2–7): a language-processing program combined with a script can sustain the appearance of a therapeutic conversation. Users' responses and proposed professional applications surprised its author. The lesson is about how people interpret a performance and transfer authority to it; it is not evidence that the program understood their lives.
-- [M1,M3] **Technique and Human Encounter** (Introduction): Weizenbaum objects to treating a parody of one therapeutic technique as a substitute for the human relationship. Preserve this as his ethical and interpretive criticism, not a clinical effectiveness claim about present-day systems.
+- [M1,M3] **Technique and Human Encounter** (Introduction): A parody of one therapeutic technique should not substitute for the human relationship. Preserve this as his ethical and interpretive criticism, not a clinical effectiveness claim about present-day systems.
 
 ### Chapters 1–3: Tools, formal power, and machines
 
@@ -34,9 +34,9 @@
 ### Chapters 9–10: Comprehensibility and responsibility
 
 - [M1,M3] **Incomprehensible Programs** (ch. 9): growth and patching can make a system difficult for its makers to understand while institutions become dependent on it. Complexity does not confer independent legitimacy. Ask whether anyone can evaluate the relevant behavior and take responsibility for continued use.
-- [M1,M3] **DENDRAL and MACSYMA** (pp. 229–230): Weizenbaum recognizes technically important achievements in well-structured domains. DENDRAL's candidate molecular structures can be checked against an independent theory relating structure to spectra; MACSYMA manipulates mathematical expressions. His critique is not that every computational application is worthless.
+- [M1,M3] **DENDRAL and MACSYMA** (pp. 229–230): Technically important achievements are possible in well-structured domains. DENDRAL's candidate molecular structures can be checked against an independent theory relating structure to spectra; MACSYMA manipulates mathematical expressions. His critique is not that every computational application is worthless.
 - [M1,M3] **Against the Imperialism of Instrumental Reason** (ch. 10, especially pp. 260, 265): tracing a calculation does not answer the question of a responsible choice. Feasibility does not entail obligation to implement. Research priorities and uses of talent are choices that should be open to ethical deliberation, rather than presented as irresistible technical destiny.
-- [M1,M3] **Disagreement with Simon** (p. 260): Weizenbaum resists extending a simple adaptive-system description to the whole person because it can erase choice and obligation. Retain the disagreement about explanatory scope; do not manufacture a shared theory of judgment.
+- [M1,M3] **Disagreement with Simon** (p. 260): Extending a simple adaptive-system description to the whole person can erase choice and obligation; that extension is rejected here. Retain the disagreement about explanatory scope; do not manufacture a shared theory of judgment.
 
 ## Worked Example
 

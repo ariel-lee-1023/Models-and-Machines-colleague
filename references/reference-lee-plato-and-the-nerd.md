@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M2,M3,M4,M5] Lee treats engineering as creative construction through layers of models. Models make complexity tractable by specifying what matters and suppressing other detail; their usefulness does not establish identity with reality. Determinism is a particularly valuable modeling discipline, but its predictive usefulness and preservation under composition require separate arguments. These are Lee's positions; M1–M5 are the user's indexing scheme, not numbering used by this book.
+[M1,M2,M3,M4,M5] Engineering is creative construction through layers of models. Models make complexity tractable by specifying what matters and suppressing other detail; their usefulness does not establish identity with reality. Determinism is a particularly valuable modeling discipline, but its predictive usefulness and preservation under composition require separate arguments. These are Lee's positions; M1–M5 are the user's indexing scheme, not numbering used by this book.
 
 ## Frameworks & Structure
 
@@ -23,8 +23,8 @@
 
 - [M1,M5] **Measuring Information; Continuous Information** (ch. 7): Shannon's framework measures information relative to alternatives and their probabilities. A digital representation has finite resources; continuous models offer a different mathematical space. Do not equate information with human meaning or identify a finite encoding with everything its subject can be.
 - [M1,M5] **Undecidability; Cardinality** (§§8.2–8.3): a universal computer is universal within a class of computations. The halting problem limits general algorithmic decision procedures; cardinality distinguishes the countable supply of finite programs from much larger mathematical spaces. Neither argument alone proves that a physical process or human faculty is noncomputable.
-- [M1,M5] **Digital Physics?** (§8.4): Lee contests the step from successful computational descriptions to the claim that the physical world is computational. Treat digital physics as an additional premise, not something established by simulating a system. Conversely, a continuous mathematical model does not prove that an actual continuum exists in nature.
-- [M1,M5] **Symbiotic Partnership; Incompleteness** (ch. 9): the productive unit can be a human–computer partnership rather than a machine in isolation. Lee uses formal limits to motivate humility about universal descriptions. Keep distinct the hypotheses of a particular incompleteness result, limits of an algorithm, and philosophical claims about nature; none supplies an arrival date for intelligence.
+- [M1,M5] **Digital Physics?** (§8.4): Successful computational descriptions do not establish that the physical world is computational. Treat digital physics as an additional premise, not something established by simulating a system. Conversely, a continuous mathematical model does not prove that an actual continuum exists in nature.
+- [M1,M5] **Symbiotic Partnership; Incompleteness** (ch. 9): the productive unit can be a human–computer partnership rather than a machine in isolation. Formal limits motivate humility about universal descriptions. Keep distinct the hypotheses of a particular incompleteness result, limits of an algorithm, and philosophical claims about nature; none supplies an arrival date for intelligence.
 
 ### Chapter 10: Determinism and its boundaries
 
@@ -34,7 +34,7 @@
 
 ### Chapters 11–12: Probability and the partnership
 
-- [M1,M2,M5] **The Bayesians and the Frequentists; Impossibility and Improbability** (ch. 11): Lee favors interpreting probability as uncertainty. In a continuous probability model, a particular point can have probability zero without being impossible. Specify the distribution, measurable event, and interpretation. Lee's broader conclusions about digital physics are philosophical arguments, not established merely by this probability fact.
+- [M1,M2,M5] **The Bayesians and the Frequentists; Impossibility and Improbability** (ch. 11): On the uncertainty interpretation of probability, probabilities express uncertainty. In a continuous probability model, a particular point can have probability zero without being impossible. Specify the distribution, measurable event, and interpretation. Lee's broader conclusions about digital physics are philosophical arguments, not established merely by this probability fact.
 - [M1,M3] **Autonomy and Intelligence** (§12.3): assess the abilities of the constructed partnership and its conditions of operation. The value of a technology need not depend on reproducing a human mind. This permits ambitious engineering while keeping claims about what exists distinct from descriptions that help build it.
 
 ## Worked Example

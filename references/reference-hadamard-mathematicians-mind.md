@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3] The route by which an idea is found differs from the finished argument that justifies it. Hadamard investigates conscious effort, incubation, illumination, later verification, and differences in mathematical representation through introspection and selected testimony. These reports illuminate possibilities and suggest questions; they do not establish a universal sequence, population frequencies, learning-style prescriptions, or the neural mechanism of discovery. M1 concerns descriptions of thought; M3 marks applications to the design of inquiry and assistance.
+[M1,M3] The route by which an idea is found differs from the finished argument that justifies it. Introspection and selected testimony provide accounts of conscious effort, incubation, illumination, later verification, and differences in mathematical representation. These reports illuminate possibilities and suggest questions; they do not establish a universal sequence, population frequencies, learning-style prescriptions, or the neural mechanism of discovery. M1 concerns descriptions of thought; M3 marks applications to the design of inquiry and assistance.
 
 ## Frameworks & Structure
 
@@ -23,7 +23,7 @@
 ### IV. The Preparation Stage. Logic and Chance
 
 - [M1,M3] **Conscious work as preparatory**: sustained engagement supplies distinctions, failed approaches, and constraints that later insight may use. Incubation is not merely being told a question and waiting for an answer. Before suggesting a break, identify the work already done and what remains unresolved.
-- [M1,M3] **Logic and chance** need not be rival total explanations. Deliberate reasoning can organize discovery, while unforeseen combinations can redirect it. Hadamard discusses consciously continuous work as well as sudden insight; the stage scheme should not force every episode into a clean pipeline.
+- [M1,M3] **Logic and chance** need not be rival total explanations. Deliberate reasoning can organize discovery, while unforeseen combinations can redirect it. Discovery can involve consciously continuous work as well as sudden insight; the stage scheme should not force every episode into a clean pipeline.
 - [M1,M3] In an assisted workflow, candidate generation, problem framing, and inspection are different activities. A tool may help one while bypassing another. This is a design application: compare what the user can now notice or attempt rather than inferring preparation from the number of generated candidates.
 
 ### V. The Later Conscious Work
@@ -36,7 +36,7 @@
 
 - [M1,M3] **Synthesis** holds the organization of a problem together rather than treating every step as an isolated symbol manipulation. Signs and sketches can relieve memory and preserve relations; mechanically applying rules without grasping their role does not describe all mathematical work.
 - [M1] **Mental images and schemas** can be vague, partial, or unlike the final formal notation while remaining useful for organizing thought. Test what they preserve and what they distort. Hadamard's examples are personal reports, not requirements that every mathematician picture the same thing.
-- [M1,M3] **The help of signs** can change the representation actually used: Hadamard describes an external expression replacing an internal schema. This supports investigating tool–person coupling; it does not show that offloading necessarily destroys understanding. Likewise, a failed checking calculation can itself be wrong, so investigate both candidate and check rather than automatically privileging either.
+- [M1,M3] **The help of signs** can change the representation actually used: an external expression can replace an internal schema in the reported example. This supports investigating tool–person coupling; it does not show that offloading necessarily destroys understanding. Likewise, a failed checking calculation can itself be wrong, so investigate both candidate and check rather than automatically privileging either.
 
 ### VII. Different Kinds of Mathematical Minds
 

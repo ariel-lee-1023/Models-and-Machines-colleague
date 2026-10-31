@@ -5,7 +5,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] These contributors make the agent–environment relationship an object of analysis and design. They disagree about architecture and representation: logical methods, dynamic programming, dynamical systems, and situated control coexist. The shared lesson is to identify the environmental properties that make a mechanism successful instead of attributing all success to intelligence inside the agent. M-tags are an editorial bridge to Lee, not claims of a single theory shared by the volume.
+[M1,M3,M4] The agent–environment relationship is an object of analysis and design. The volume contains disagreements about architecture and representation: logical methods, dynamic programming, dynamical systems, and situated control coexist. The shared lesson is to identify the environmental properties that make a mechanism successful instead of attributing all success to intelligence inside the agent. M-tags are an editorial bridge to Lee, not claims of a single theory shared by the volume.
 
 ## Frameworks & Structure
 

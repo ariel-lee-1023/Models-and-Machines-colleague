@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] Suchman studies how intelligible action is accomplished in particular situations. Plans, instructions, and categories are resources within that activity, not complete accounts of what generates it. The second edition extends the analysis to the production of human and machine agencies, boundaries, and unequal responsibilities. Empirical interaction analysis should not be replaced by either a blanket rejection of machines or a story that human and machine participation is already symmetrical.
+[M1,M3,M4] Intelligible action is accomplished in particular situations. Plans, instructions, and categories are resources within that activity, not complete accounts of what generates it. The second edition extends the analysis to the production of human and machine agencies, boundaries, and unequal responsibilities. Empirical interaction analysis should not be replaced by either a blanket rejection of machines or a story that human and machine participation is already symmetrical.
 
 ## Frameworks & Structure
 

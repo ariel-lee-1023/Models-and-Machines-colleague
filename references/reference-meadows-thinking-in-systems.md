@@ -44,7 +44,7 @@
 
 ### 6. Leverage Points—Places to Intervene in a System
 
-- [M1,M3] Meadows orders twelve intervention locations from generally lower to higher leverage: **12 Numbers; 11 Buffers; 10 Stock-and-Flow Structures; 9 Delays; 8 Balancing Feedback Loops; 7 Reinforcing Feedback Loops; 6 Information Flows; 5 Rules; 4 Self-Organization; 3 Goals; 2 Paradigms; 1 Transcending Paradigms**. These names retain the source's ordering; the list is an invitation to inquiry, explicitly not a recipe or universal ranking of effectiveness.
+- [M1,M3] The twelve intervention locations run from generally lower to higher leverage: **12 Numbers; 11 Buffers; 10 Stock-and-Flow Structures; 9 Delays; 8 Balancing Feedback Loops; 7 Reinforcing Feedback Loops; 6 Information Flows; 5 Rules; 4 Self-Organization; 3 Goals; 2 Paradigms; 1 Transcending Paradigms**. These names retain the source's ordering; the list is an invitation to inquiry, explicitly not a recipe or universal ranking of effectiveness.
 - [M3,M4] Parameters change rates or thresholds; buffers change tolerance; stock-and-flow structures change the physical arrangement. Delays and loop strength change responsiveness. Information flows change who can see consequences; rules change incentives and authority. Self-organization enables structural revision, goals redirect behavior, and paradigms govern what counts as a problem. Transcending paradigms keeps the framework itself open to challenge.
 - [M1,M3] Compare at least two plausible changes by their proposed causal effect, feasibility, delay, distribution of burdens, and reversibility. Do not jump to “change the paradigm” when a bounded correction is adequate. High leverage can also mean a powerful change in the wrong direction.
 

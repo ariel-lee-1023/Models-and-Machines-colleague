@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] Wiener examines communication, control, and learning across organisms, machines, and social arrangements. Feedback can produce organized behavior under uncertainty, but the ends of control remain a human concern. Shared mathematical descriptions do not settle the moral equivalence of people and machines or justify reducing people to interchangeable components.
+[M1,M3,M4] Communication, control, and learning link organisms, machines, and social arrangements. Feedback can produce organized behavior under uncertainty, but the ends of control remain a human concern. Shared mathematical descriptions do not settle the moral equivalence of people and machines or justify reducing people to interchangeable components.
 
 ## Frameworks & Structure
 
@@ -18,7 +18,7 @@
 
 - [M1,M3,M4] **Rigidity and Learning: Two Patterns of Communicative Behavior** (ch. III): learning changes policies on the basis of experience, whereas a rigid response corrects within a fixed organization. Distinguish a controller changing an output from one revising how it responds. Neither kind of adaptation automatically establishes suitable goals.
 - [M1,M4] **The Mechanism and History of Language** (ch. IV): communication operates through socially learned patterns and conventions. Its significance cannot be assessed by transmission machinery alone. Examine how a channel participates in a practice and which participants can learn or adapt within it.
-- [M1] **Organization as the Message** (ch. V): Wiener explores identity through organization rather than persistence of the same material constituents. His speculative examples are conceptual investigations, not evidence that a person's full organization can be captured, transmitted, or recreated by an available machine.
+- [M1] **Organization as the Message** (ch. V): Identity can be explored through organization rather than persistence of the same material constituents. The speculative examples are conceptual investigations, not evidence that a person's full organization can be captured, transmitted, or recreated by an available machine.
 
 ### Chapters VI–VIII: Channels and institutions
 
@@ -28,7 +28,7 @@
 
 ### Chapters IX–XI: Automation and changing opposition
 
-- [M1,M3] **The First and the Second Industrial Revolution** (ch. IX): Wiener contrasts substitution for muscular work with automation of control and routine judgment. Assess the human organization of labor and transition, rather than assuming increased productive capacity distributes its benefits. Historical expectations should not be recycled as forecasts for today's technologies.
+- [M1,M3] **The First and the Second Industrial Revolution** (ch. IX): Substitution for muscular work differs from automation of control and routine judgment. Assess the human organization of labor and transition, rather than assuming increased productive capacity distributes its benefits. Historical expectations should not be recycled as forecasts for today's technologies.
 - [M1,M3,M4] **Some Communication Machines and Their Future** (ch. X): machines able to learn or control can pursue specified behavior in ways that differ from a person's intended purpose. The gap is a reason to examine the relation between objective, feedback, and practical consequences. A designer remains responsible for what the chosen control arrangement rewards.
 - [M1,M4] **Language, Confusion, and Jam** (ch. XI): communication can face active interference and changing opponents, not only passive noise. A useful model must distinguish the sources and organization of uncertainty. The control or communication strategy appropriate to one kind of disturbance need not survive another.
 

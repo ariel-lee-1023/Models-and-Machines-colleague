@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] Physical growth interacts with source capacity, waste absorption, delayed signals, and the time and resources needed to respond. Overshoot is possible when expansion continues beyond sustainable throughput before corrective action takes effect; collapse additionally depends on damage, recovery, and model structure. The authors use conditional scenarios to examine policy choices, not a dated prediction or a probability distribution over futures. Their interpretation of the world remains distinct from what their model demonstrates internally.
+[M1,M3,M4] Physical growth interacts with source capacity, waste absorption, delayed signals, and the time and resources needed to respond. Overshoot is possible when expansion continues beyond sustainable throughput before corrective action takes effect; collapse additionally depends on damage, recovery, and model structure. Conditional scenarios examine policy choices; they are neither dated predictions nor a probability distribution over futures. Interpretation of the world remains distinct from what the model demonstrates internally.
 
 ## Frameworks & Structure
 
@@ -30,18 +30,18 @@
 
 - [M1,M3,M4] **World3 structure** couples population, productive capital, agriculture/food, nonrenewable resources, and persistent pollution through stocks, flows, feedback, and delays. Ask which sectors are aggregated, how investment is allocated, and which technological or policy changes are assumed. Matching a historical pattern does not uniquely identify the real mechanism.
 - [M1,M4] **Four behavior modes**: continuous growth requires sufficiently distant or expanding limits; sigmoid accommodation requires timely adjustment or deliberate restraint; overshoot and oscillation can arise with delay and recoverable limits; overshoot and collapse can arise when exceedance erodes capacity. These are conditional model behaviors, not four exhaustive destinies of every real system.
-- [M1,M3] **Scenario versus prediction**: Scenario 1 is a reference point for comparison, not the most probable future. The authors investigate broad behavior under alternative assumptions and vary uncertain inputs, including resource estimates. They explicitly reject interpreting a plotted year as the predicted date of an industrial downturn. No scenario probabilities follow from the ordering or numbering of runs.
+- [M1,M3] **Scenario versus prediction**: Scenario 1 is a reference point for comparison, not the most probable future. The scenarios investigate broad behavior under alternative assumptions and vary uncertain inputs, including resource estimates. A plotted year is explicitly not a predicted date of an industrial downturn. No scenario probabilities follow from the ordering or numbering of runs.
 - [M1,M3] **Model adequacy questions**: identify the policy purpose, structural assumptions, uncertain values, sensitivity, and omitted mechanisms. Ask whether the proposed inference survives changed assumptions. Agreement with one output series is weaker evidence than discriminating tests of mechanisms and alternatives. The latter testing requirement is the colleague's application of the model–reality distinction.
 
 ### 5. Back from Beyond the Limits: The Ozone Story
 
-- [M1,M3,M4] The authors' historical case connects industrial expansion, delayed environmental transport, scientific detection, contested interpretation, negotiation, substitution, and regulation. It illustrates organized correction despite incomplete knowledge and long physical delays; it does not prove every environmental problem has the same solution.
+- [M1,M3,M4] The historical case connects industrial expansion, delayed environmental transport, scientific detection, contested interpretation, negotiation, substitution, and regulation. It illustrates organized correction despite incomplete knowledge and long physical delays; it does not prove every environmental problem has the same solution.
 - [M3,M4] **Monitoring and revisable agreements** join observation to policy changes. Scientific cooperation, information sharing, technical alternatives, and actors able to negotiate and enforce decisions all matter. A sensor alone does not close the loop. The chapter's recovery projections are historical projections, not verified present ozone measurements.
 
 ### 6. Technology, Markets, and Overshoot
 
 - [M1,M3,M4] **Layers of limits**: raising one constraint while preserving growth can expose another. Efficiency, pollution control, land protection, and yield improvements can enlarge feasible welfare, but their development and deployment consume capital and time. Count implementation, maintenance, and side effects rather than substituting an invention announcement for installed capacity.
-- [M1,M3,M4] **Ability to cope** can become the binding limit before stocks are exhausted. World3 represents it chiefly through available industrial output for investment. The authors explicitly name additional real-world capacities—trained people, institutions, political attention, management, and sustained commitment—which the model captures poorly. Do not claim World3 directly measures human understanding.
+- [M1,M3,M4] **Ability to cope** can become the binding limit before stocks are exhausted. World3 represents it chiefly through available industrial output for investment. Additional real-world capacities—trained people, institutions, political attention, management, and sustained commitment—are explicitly identified but poorly captured by the model. Do not claim World3 directly measures human understanding.
 - [M1,M3] **Some Disclaimers**: the world is aggregated, so scarcity and response capacity are pooled across unequal regions. Political decisions, functioning markets, and technologies receive optimistic simplifications; wars and many disruptions are absent. Critics may also dispute technological or resource limits in the other direction. Preserve both possibilities: optimism in some assumptions does not certify the whole model as a guaranteed upper bound.
 - [M1,M3] **Goals, costs, and delays** limit what technology and markets can accomplish alone. They serve selected purposes and time horizons. A price can arrive after ecological damage or fail to include it; a useful technology can arrive too slowly. The claim is conditional adequacy of tools within an arrangement, not that innovation or markets have no value.
 
@@ -49,7 +49,7 @@
 
 - [M1,M3] **Constraints on growth plus improved technologies**: Scenario 9 combines restrained population and material-output goals with resource efficiency, pollution reduction, erosion control, and yield improvement. Its assumed implementation costs and development delay matter. This is a modeled policy bundle; it does not establish which element alone caused the result or authorize imposing demographic policy.
 - [M1,M3,M4] **The Difference 20 Years Can Make**: Scenario 10 moves the same bundle earlier than Scenario 9. The modeled result preserves more resources and room to adjust. It tests timing within the chosen structure, not the observed history of an alternative world. Historical start dates cannot simply be shifted forward to create a contemporary forecast.
-- [M1,M3] A sustainable society's purposes need not reduce to frozen consumption or deprivation. The authors distinguish material expansion from welfare and room for human development. Evaluate distribution and access separately from global averages; a high average does not show that every group benefits.
+- [M1,M3] A sustainable society's purposes need not reduce to frozen consumption or deprivation. Material expansion differs from welfare and room for human development. Evaluate distribution and access separately from global averages; a high average does not show that every group benefits.
 
 ### 8. Tools for the Transition to Sustainability; appendices
 

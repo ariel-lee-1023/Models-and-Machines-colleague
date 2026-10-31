@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] Clark proposes that human cognition characteristically recruits bodily, environmental, and technological resources. The relevant system may extend beyond skin and skull when those resources integrate fluently and transform what a person can do. This is a substantive account of cognitive organization, not Lee's claim that intelligence is merely a property of a model. The library uses M1 to inspect the boundary and evidence for Clark's account.
+[M1,M3,M4] On the extended-cognition account, human cognition characteristically recruits bodily, environmental, and technological resources. The relevant system may extend beyond skin and skull when those resources integrate fluently and transform what a person can do. This is a substantive account of cognitive organization, not Lee's claim that intelligence is merely a property of a model. The library uses M1 to inspect the boundary and evidence for Clark's account.
 
 ## Frameworks & Structure
 
@@ -21,27 +21,27 @@
 
 ### Chapter 3: Plastic Brains, Hybrid Minds
 
-- [M1,M4] **The Negotiable Body; Bodily Illusions**: Clark uses research on altered bodily experience to show that felt boundaries and control are not fixed readouts of anatomy. This supports investigating incorporation and adaptation. It does not establish that every aid becomes literally part of cognition, nor that a bodily illusion is a complete theory of personal identity.
+- [M1,M4] **The Negotiable Body; Bodily Illusions**: Research on altered bodily experience suggests that felt boundaries and control are not fixed readouts of anatomy. This supports investigating incorporation and adaptation. It does not establish that every aid becomes literally part of cognition, nor that a bodily illusion is a complete theory of personal identity.
 - [M1,M3] **Plasticity and Hybrid Organization**: learning can change how biological capacities cooperate with tools. Assess adaptation over use, not solely first-use performance. Mechanistic or clinical claims about current neuroscience require appropriate independent evidence beyond this 2003 discussion.
 
 ### Chapters 4–5: Location and self
 
 - [M1,M4] **Where Are We?**: mediated presence and remote action separate physical location from where attention and agency are experienced. For a task, specify the location of action, observation, and control separately. The felt location of a self need not coincide with the location of every enabling mechanism.
-- [M1,M3,M4] **What Are We?**: a technologically extended capacity can change projects, habits, and self-understanding. Clark's argument resists a sealed inner self that merely uses neutral external means. A design implication is to inspect dependence and continuity of a person's activities when a tool changes or disappears.
+- [M1,M3,M4] **What Are We?**: a technologically extended capacity can change projects, habits, and self-understanding. The self is not a sealed interior that merely uses neutral external means. A design implication is to inspect dependence and continuity of a person's activities when a tool changes or disappears.
 
 ### Chapter 6: Global Swarming
 
-- [M1,M4] **Tracks, Trails, and Distributed Coordination**: traces left by one activity can guide later activity by others without central direction. Clark draws analogies between animal trails and electronically mediated collective behavior. Specify what is recorded, how it changes later choices, and who can influence those traces.
+- [M1,M4] **Tracks, Trails, and Distributed Coordination**: traces left by one activity can guide later activity by others without central direction. Animal trails provide an analogy for electronically mediated collective behavior. Specify what is recorded, how it changes later choices, and who can influence those traces.
 - [M1,M3,M4] **Positive Feedback and Path Dependence**: collective attention can amplify early choices and narrow subsequent discovery. More interaction does not automatically improve knowledge. Inspect whether the environment preserves opportunities to notice alternatives and correct accumulated bias.
 
 ### Chapters 7–8: Costs and continuity
 
-- [M1,M3] **Bad Borgs?**: Clark considers inequality, intrusion, uncontrollability, overload, alienation, narrowing, deceit, degradation, and disembodiment. These are distinct objections, not one blanket rejection of augmentation. Ask which mechanism produces the problem and which group is affected before choosing a response.
+- [M1,M3] **Bad Borgs?**: Objections include inequality, intrusion, uncontrollability, overload, alienation, narrowing, deceit, degradation, and disembodiment. These are distinct objections, not one blanket rejection of augmentation. Ask which mechanism produces the problem and which group is affected before choosing a response.
 - [M1,M3] **Post-Human, Moi?**: the capacity for technological incorporation is presented as a long-standing human characteristic. Novel devices need not imply a rupture into an entirely new kind of being. Preserve the author's enthusiasm while testing particular arrangements for access, dependence, and effective control.
 
 ## Worked Example
 
-[M1,M3,M4] **Reconstructed from ch. 1: the flight deck.** Pilots monitor automation while automation constrains or responds to pilot action. Clark compares different allocations of final authority. The system to evaluate therefore includes people, electronics, displays, procedures, and feedback loops. A task can succeed because of that coordination rather than because either party independently possesses the full capability. Extending the analysis, a design review should inspect what happens when a display or control relationship becomes unavailable; this failure probe is the library's application, not a reported Clark experiment.
+[M1,M3,M4] **Reconstructed from ch. 1: the flight deck.** Pilots monitor automation while automation constrains or responds to pilot action. The case contrasts different allocations of final authority. The system to evaluate therefore includes people, electronics, displays, procedures, and feedback loops. A task can succeed because of that coordination rather than because either party independently possesses the full capability. Extending the analysis, a design review should inspect what happens when a display or control relationship becomes unavailable; this failure probe is the library's application, not a reported Clark experiment.
 
 ## Decision Rules & Judgment
 

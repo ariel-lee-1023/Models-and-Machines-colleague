@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] Brooks treats designing as disciplined exploration in which goals, constraints, and candidate solutions develop together. Explicit models help teams act coherently, but a neat search model is not a complete description of real design. The engineering task is to make assumptions visible, learn through realization, and preserve conceptual integrity across many contributors.
+[M1,M3,M4] Designing is disciplined exploration in which goals, constraints, and candidate solutions develop together. Explicit models help teams act coherently, but a neat search model is not a complete description of real design. The engineering task is to make assumptions visible, learn through realization, and preserve conceptual integrity across many contributors.
 
 ## Frameworks & Structure
 

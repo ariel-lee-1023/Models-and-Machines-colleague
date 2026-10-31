@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] MacKenzie studies how people come to know and trust computer systems, including formal verification and mechanized mathematical proof. Deduction can be powerful without eliminating reliance on people, tools, institutions, and physical machines. Follow what a proof actually establishes and how its authority travels into practice; the sociology of acceptance neither invalidates a theorem nor certifies a realization.
+[M1,M3,M4] Knowledge of and trust in computer systems involve formal verification, mechanized mathematical proof, and the practices through which their results are accepted. Deduction can be powerful without eliminating reliance on people, tools, institutions, and physical machines. Follow what a proof actually establishes and how its authority travels into practice; the sociology of acceptance neither invalidates a theorem nor certifies a realization.
 
 ## Frameworks & Structure
 
@@ -26,7 +26,7 @@
 
 ### Chapter 6: Competing critiques
 
-- [M1,M3] **Social Processes** (ch. 6): DeMillo, Lipton, and Perlis emphasize how understandable arguments are checked, reused, corrected, and accepted. A large formal derivation can be difficult to integrate into such practices. MacKenzie reports the dispute; the reader must not conflate this objection with a demonstration of logical invalidity.
+- [M1,M3] **Social Processes** (ch. 6): Understandable arguments are checked, reused, corrected, and accepted through social practices [DeMillo, Lipton, and Perlis, as discussed in ch. 6]. A large formal derivation can be difficult to integrate into such practices. This disputed objection concerns acceptance practices; it does not demonstrate logical invalidity.
 - [M1,M3] **Category Mistakes** (ch. 6): Fetzer distinguishes formal mathematical objects from causally operating physical programs. That differs from the social-process critique. The useful design consequence is to label proof about a description separately from evidence that an actual device realizes it; it is not to abandon proof.
 
 ### Chapters 7–8: Machines and trusted mechanisms

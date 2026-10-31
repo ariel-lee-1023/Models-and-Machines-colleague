@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3] A formally correct description and a person's ability to make sense of it are different achievements. Bessis treats understanding as the patient construction and correction of personal representations through imagination, articulation, and contact with logical constraints. His first-person account offers practices to try, not measured effects for every learner. M1 connects representations with what they represent; M3 tags the design application of helping a learner build usable understanding, not a claim that learners should be forced to fit a fixed cognitive model.
+[M1,M3] A formally correct description and a person's ability to make sense of it are different achievements. In this first-person account, understanding involves the patient construction and correction of personal representations through imagination, articulation, and contact with logical constraints. His first-person account offers practices to try, not measured effects for every learner. M1 connects representations with what they represent; M3 tags the design application of helping a learner build usable understanding, not a claim that learners should be forced to fit a fixed cognitive model.
 
 ## Frameworks & Structure
 
@@ -13,12 +13,12 @@
 - [M1,M3] **Official Math vs. Secret Math** distinguishes public notation and organized arguments from the representations through which a mathematician finds those arguments meaningful. A polished proof may leave its motivating choices invisible. Explain both why each step is licensed and how someone could come to see a useful route, without inventing a historical discovery process.
 - [M1,M3] **Three False Beliefs** challenge the reduction of mathematical thought to explicit logical manipulation, fixed intuitive aptitude, and a fundamentally separate class of mathematical brains. These are Bessis's polemical targets. They do not establish equal learning rates, eliminate differences in aptitude, or justify dismissing instruction and formal reasoning.
 - [M1,M3] **Three Secrets of Mathematicians**: mathematical understanding involves practiced internal actions; intuition can be cultivated; exceptional ability need not be treated as inaccessible magic. His bodily and training analogies make normally invisible activity discussable. Claims about the magnitude or universality of improvement are author claims, not effect sizes established here.
-- [M1] **Real Understanding**: decimal notation can become so fluent that a learned representation seems identical to seeing numbers themselves. Bessis uses this to expose acquired intuition. Familiarity with notation is useful, but the feeling that something is obvious does not independently establish its truth or its fit to an external system.
+- [M1] **Real Understanding**: decimal notation can become so fluent that a learned representation seems identical to seeing numbers themselves. This illustrates acquired intuition. Familiarity with notation is useful, but the feeling that something is obvious does not independently establish its truth or its fit to an external system.
 
 ### Chapters 5–6: Unseen Actions; Refusing to Read
 
 - [M1,M3] **Unseen Actions; Blindly Copying**: imitating a visible performance may miss the internal work that makes it effective. A tool showing correct steps can still omit the user's construction of meaning. Ask the learner to generate, vary, or explain a representation rather than assuming exposure transfers the expert's understanding.
-- [M1,M3] **Daring Not to Read**: begin with the actual question and work on the definition, result, or passage needed now; construct meaning rather than endlessly accumulating prerequisites. Bessis explicitly qualifies the provocative refusal: mathematical books can be read, but doing so meaningfully requires substantial work. This is not permission to ignore a theorem's assumptions or a safety-critical dependency.
+- [M1,M3] **Daring Not to Read**: begin with the actual question and work on the definition, result, or passage needed now; construct meaning rather than endlessly accumulating prerequisites. The provocative refusal has a qualification: mathematical books can be read, but doing so meaningfully requires substantial work. This is not permission to ignore a theorem's assumptions or a safety-critical dependency.
 - [M1,M3] **Learning to See** makes reading an active reconstruction. For tool design, provide manipulable examples and opportunities to ask naive questions, not only faster access to polished explanations. That design proposal is a new application, not a tutor evaluated in the book.
 
 ### Chapter 7: The Child's Pose
@@ -52,7 +52,7 @@
 
 ## Worked Example
 
-[M1,M3] **Reconstructed from ch. 11: the ball and bat.** If the ball were ten cents, the bat would be $1.10 and the total $1.20, exposing the initial mistake. Represent the actual total as a one-dollar excess plus two equal ball amounts; each is five cents. Algebra, x + (x + 1) = 1.10, checks the same constraint. Bessis's learning target is the revised way of seeing the relation, not speed at repeating five cents. Asking a learner to explain a changed total or an unequal relation is the colleague's evaluation application, not an experiment reported in the source.
+[M1,M3] **Reconstructed from ch. 11: the ball and bat.** If the ball were ten cents, the bat would be $1.10 and the total $1.20, exposing the initial mistake. Represent the actual total as a one-dollar excess plus two equal ball amounts; each is five cents. Algebra, x + (x + 1) = 1.10, checks the same constraint. The learning target is a revised way of seeing the relation, not speed at repeating five cents. Asking a learner to explain a changed total or an unequal relation is the colleague's evaluation application, not an experiment reported in the source.
 
 ## Decision Rules & Judgment
 

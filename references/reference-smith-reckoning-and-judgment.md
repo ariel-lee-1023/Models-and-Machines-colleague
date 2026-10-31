@@ -4,15 +4,15 @@
 
 ## Mental Model (read first)
 
-[M1,M3] Smith distinguishes effective calculation within established representations from judgment that is accountable to the world those representations concern. The distinction does not divide all humans from all machines. Its point is to establish a demanding standard for cognition and appropriate use: dealing with a description is not yet taking responsibility for whether it gets reality right.
+[M1,M3] Effective calculation within established representations differs from judgment that is accountable to the world those representations concern. The distinction does not divide all humans from all machines. Its point is to establish a demanding standard for cognition and appropriate use: dealing with a description is not yet taking responsibility for whether it gets reality right.
 
 ## Frameworks & Structure
 
 ### Chapters 1–3: What representation requires
 
 - [M1] **Background; History** (chs. 1–2): the attraction of formal computation is that a mechanism can manipulate structures while people interpret those structures as being about a world. Mechanical effectiveness and semantic significance are different relations. Conflating them makes successful symbol processing appear to establish more than it does.
-- [M1] **The Noneffectiveness of Reference** (ch. 2): being referred to is not itself a physical signal arriving at the referent. Someone may think about a distant object without causing a detectable disturbance there. Smith is distinguishing aboutness from local causal contact, not denying that speech or thought can have causal consequences.
-- [M1,M3] **GOFAI's Failures** (ch. 3): Smith examines perceptual, epistemological, and ontological weaknesses in the assumption that intelligence begins with a neatly articulated inventory of objects and facts. Creating and sustaining those distinctions is already an achievement. Do not treat the input ontology as free when evaluating a reasoning system.
+- [M1] **The Noneffectiveness of Reference** (ch. 2): being referred to is not itself a physical signal arriving at the referent. Someone may think about a distant object without causing a detectable disturbance there. Aboutness differs from local causal contact; speech or thought can still have causal consequences.
+- [M1,M3] **GOFAI's Failures** (ch. 3): The assumption that intelligence begins with a neatly articulated inventory of objects and facts has perceptual, epistemological, and ontological weaknesses. Creating and sustaining those distinctions is already an achievement. Do not treat the input ontology as free when evaluating a reasoning system.
 
 ### Chapters 4–7: Learning and articulated reasoning
 
@@ -30,7 +30,7 @@
 
 - [M1,M3] **Reckoning** (ch. 10): calculation and effective performance can proceed within an established representational and normative frame. Reckoning is powerful and valuable. Its adequacy for a task depends on whether people have justified the frame and can handle circumstances it fails to represent.
 - [M1,M3] **Judgment** (ch. 10): judgment involves commitment to what is real, true, and appropriate, including recognition of the limitations of one's understanding. It is not merely confidence, explanation fluency, or another output score. Its crucial demand is the capacity and obligation to let the world correct one's framing.
-- [M1,M3] **Human vs. Machine** (ch. 11): Smith expressly leaves open that synthesized systems might develop judgment, while acknowledging that much human cognition is reckoning. Avoid claiming that judgment is definitionally biological or that this book proves an eternal machine limitation.
+- [M1,M3] **Human vs. Machine** (ch. 11): Synthesized systems might develop judgment; that possibility remains open, and much human cognition is reckoning. Avoid claiming that judgment is definitionally biological or that this book proves an eternal machine limitation.
 - [M1,M3] **Accountability Beyond Each Local Move** (ch. 11): people need not deliberate explicitly at every instant to be held accountable for what they do. Conversely, attaching a human name to a workflow does not establish meaningful judgment. The library's design application is to inspect whether that person can understand, challenge, and alter the framing.
 
 ### Chapters 12–13: Applying the distinction

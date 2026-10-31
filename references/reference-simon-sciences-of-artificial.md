@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] Simon studies systems adapted to goals and environments, including artifacts, organizations, and cognition. Their behavior can sometimes be understood at an interface without reproducing every internal detail. Search, bounded rationality, and decomposable structure explain how limited agents can design and act. Treat the extension of this framework to human understanding as a substantive hypothesis, not a consensus shared by the other sources.
+[M1,M3,M4] Artifacts, organizations, and cognition can be studied as systems adapted to goals and environments. Their behavior can sometimes be understood at an interface without reproducing every internal detail. Search, bounded rationality, and decomposable structure explain how limited agents can design and act. Treat the extension of this framework to human understanding as a substantive hypothesis, not a consensus shared by the other sources.
 
 ## Frameworks & Structure
 
@@ -12,7 +12,7 @@
 
 - [M1,M3] **The Artifact as Interface**: behavior depends on the relationship between an inner organization and an outer environment under a purpose. A clock unsuitable for a ship might serve on a mantel. When an artifact fails, inspect the match rather than diagnosing the mechanism in isolation.
 - [M1,M3] **Functional Explanation; Understanding by Simulating**: a simulation can support understanding by isolating relevant relationships. Behavioral resemblance and identity of internal mechanism are different claims. Specify which features need correspondence for the inquiry; a simulation of one relation does not reproduce the whole thing.
-- [M1,M3] **Physical Symbol Systems**: symbols can designate objects, relations, actions, and processes, while physically implemented processes manipulate those structures. Simon's account connects cognition to computation through this architecture. Preserve it as a theoretical commitment that Agre, Winograd and Flores, Smith, and Weizenbaum interrogate from different directions.
+- [M1,M3] **Physical Symbol Systems**: symbols can designate objects, relations, actions, and processes, while physically implemented processes manipulate those structures. This theoretical account connects cognition to computation through this architecture. Preserve it as a theoretical commitment that Agre, Winograd and Flores, Smith, and Weizenbaum interrogate from different directions.
 
 ### Chapter 2: Economic rationality
 
@@ -22,7 +22,7 @@
 
 ### Chapters 3–4: Thinking, memory, and environment
 
-- [M1,M4] **The Ant on the Beach** (ch. 3): complex observed paths can arise from relatively simple adaptive behavior in a complex environment. Simon proposes investigating an analogous hypothesis for human behavior. It is an empirical explanatory proposal, not proof that the whole person has been reduced to a simple machine.
+- [M1,M4] **The Ant on the Beach** (ch. 3): complex observed paths can arise from relatively simple adaptive behavior in a complex environment. An analogous hypothesis for human behavior remains to be investigated. It is an empirical explanatory proposal, not proof that the whole person has been reduced to a simple machine.
 - [M1,M3] **Problem Spaces and Heuristic Search** (ch. 3): representations and operators organize the alternatives available to a problem solver. A difficult search may become tractable after reformulation. Keep the model's state space distinct from the full situation it is meant to represent.
 - [M1,M3,M4] **Memory as Environment for Thought; Learning** (ch. 4): stored structures and learned organization affect what a thinker can notice and do. Recognizing and retrieving useful patterns can substitute for fresh search. Do not assume expertise is captured by raw storage capacity or transfer a learned structure without its domain conditions.
 

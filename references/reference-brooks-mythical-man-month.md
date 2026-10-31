@@ -4,16 +4,16 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] Brooks exposes the difference between a labor-accounting model and the organization of building a software system. Work involves sequential dependencies, learning, communication, testing, and a shared conceptual design. Adding individual capacities does not automatically increase system capacity. The quantitative examples are explanatory models from a historical setting, not universal project-estimation constants.
+[M1,M3,M4] A labor-accounting model differs from the organization of building a software system. Work involves sequential dependencies, learning, communication, testing, and a shared conceptual design. Adding individual capacities does not automatically increase system capacity. The quantitative examples are explanatory models from a historical setting, not universal project-estimation constants.
 
 ## Frameworks & Structure
 
 ### Chapters 1–3: Work is not a fungible quantity
 
 - [M1,M3,M4] **The Programming Systems Product** (ch. 1): a working program differs from a product usable by others and from a component integrated with other programs. Generalization, testing, documentation, and integration create additional work. Estimate the deliverable actually required rather than comparing a private prototype to a supported system.
-- [M1,M3,M4] **The Mythical Man-Month; Brooks's Law** (ch. 2): adding people to an already late software project can make it later because of training, repartitioning, communication, and integration. Brooks explicitly presents the slogan as an oversimplification. Evaluate those mechanisms and task independence instead of treating the sentence as an exceptionless law.
+- [M1,M3,M4] **The Mythical Man-Month; Brooks's Law** (ch. 2): adding people to an already late software project can make it later because of training, repartitioning, communication, and integration. The slogan is explicitly an oversimplification. Evaluate those mechanisms and task independence instead of treating the sentence as an exceptionless law.
 - [M1,M4] **Training and Intercommunication** (ch. 2): if everyone must coordinate with everyone else, the number of pairwise links is n(n−1)/2. This is a fully connected communication model, not a measured rule for every team. Architecture and organization can change the graph; they cannot be assumed away by multiplying headcount by months.
-- [M3,M4] **The Surgical Team** (ch. 3): Mills's proposal concentrates design and coding responsibility while surrounding it with specialized support. Brooks uses it to address the tension between a few coherent minds and a large undertaking. Assess the division of work and its historical tools before prescribing the exact staffing pattern today.
+- [M3,M4] **The Surgical Team** (ch. 3): Mills's proposal concentrates design and coding responsibility while surrounding it with specialized support. It addresses the tension between a few coherent minds and a large undertaking. Assess the division of work and its historical tools before prescribing the exact staffing pattern today.
 
 ### Chapters 4–7: Conceptual integrity and communication
 
@@ -27,7 +27,7 @@
 - [M1,M3] **Calling the Shot** (ch. 8): estimates must account for the kind of product and system effects, rather than extrapolating individual programming rates without context. Historical productivity figures are not current benchmarks. Expose uncertainty and the work an estimate excludes.
 - [M1,M3] **Ten Pounds in a Five-Pound Sack** (ch. 9): a constrained resource needs explicit allocation and a coherent design response. Local optimizations can consume the system budget. Identify the actual binding resource before importing a historical space-saving tactic.
 - [M1,M3] **The Documentary Hypothesis** (ch. 10): a small set of written plans and descriptions can force management decisions to become explicit. Documentation is useful when it makes objectives, responsibilities, schedules, and constraints discussable and consistent, not merely because documents exist.
-- [M1,M3] **Plan to Throw One Away** (ch. 11): novel systems teach their builders things that initial planning cannot supply. Brooks advocates budgeting for a pilot or substantial redesign. This is the 1975 position; do not silently replace it with later commentary, or use it to justify discarding existing work without examining what needs to be learned.
+- [M1,M3] **Plan to Throw One Away** (ch. 11): novel systems teach their builders things that initial planning cannot supply. Budgeting should allow for a pilot or substantial redesign. This is the 1975 position; do not silently replace it with later commentary, or use it to justify discarding existing work without examining what needs to be learned.
 - [M3,M4] **Sharp Tools** (ch. 12): common tools and supporting infrastructure reduce friction and variation across a team. Tool quality matters through the work it enables. Current tool choices require present evidence; the reference preserves the organizational principle rather than old product advice.
 
 ### Chapters 13–15: Integration, progress, and users

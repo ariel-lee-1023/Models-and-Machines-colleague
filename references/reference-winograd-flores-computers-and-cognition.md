@@ -4,19 +4,19 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] Winograd and Flores shift design from modeling a detached rational subject toward supporting people already engaged in meaningful activities and commitments. Computers operate in formal domains, but the significance of those operations depends on background understanding. Design can change that background and open new possibilities; it does more than reproduce an existing representation of work.
+[M1,M3,M4] Design should support people already engaged in meaningful activities and commitments, rather than model a detached rational subject. Computers operate in formal domains, but the significance of those operations depends on background understanding. Design can change that background and open new possibilities; it does more than reproduce an existing representation of work.
 
 ## Frameworks & Structure
 
 ### Chapters 1–3: Background, being, and breakdown
 
-- [M1,M3] **The Question of Design; The Rationalistic Tradition** (chs. 1–2): the rationalistic orientation describes a world of identifiable objects and problems solved through representations and rules. The authors challenge its status as a general account of understanding, while recognizing the usefulness of formal methods in appropriate domains. Do not confuse a critique of that foundation with an injunction to stop calculating.
+- [M1,M3] **The Question of Design; The Rationalistic Tradition** (chs. 1–2): the rationalistic orientation describes a world of identifiable objects and problems solved through representations and rules. This orientation is inadequate as a general account of understanding; formal methods remain useful in appropriate domains. Do not confuse a critique of that foundation with an injunction to stop calculating.
 - [M1,M4] **Hermeneutics; Pre-understanding** (ch. 3): interpretation begins within a background of practices and distinctions. It is not assembled from context-free meanings. When a user and a system apparently share a term, investigate whether they share the practical background that makes it usable.
 - [M1,M3] **Thrownness; Readiness-to-hand; Breakdown** (§§3.3–3.4): people must act from within ongoing involvement, without a complete representation or final neutral standpoint. Familiar equipment recedes during fluent use; breakdown makes aspects of it and its use explicit. Breakdown can reveal design possibilities rather than only count as an exception to suppress.
 
 ### Chapters 4–6: Cognition, language, and commitments
 
-- [M1,M4] **Autopoiesis; Closure of the Nervous System** (ch. 4): drawing on Maturana, the authors treat cognition through an organism's organization and structural relations rather than a simple transfer of information into an internal picture. Organizational closure does not mean isolation from causal interaction. This is the book's theoretical orientation, not a generic empirical result about all artificial systems.
+- [M1,M4] **Autopoiesis; Closure of the Nervous System** (ch. 4): In Maturana's framework, cognition depends on an organism's organization and structural relations rather than a simple transfer of information into an internal picture. Organizational closure does not mean isolation from causal interaction. This is the book's theoretical orientation, not a generic empirical result about all artificial systems.
 - [M1,M4] **Consensual Domains; The Observer and Description** (ch. 4): distinctions and descriptions occur within domains of coordinated activity. Identify whose descriptions define the system and what recurrent practice gives them sense. A model's categories are not automatically the categories of its participants.
 - [M1,M3] **Language, Listening, and Commitment; Speech Acts** (ch. 5): utterances can request, promise, assert, declare, or otherwise change commitments. Their practical force depends on background and uptake. An information-transfer model misses whether anyone has undertaken an obligation or accepted satisfaction.
 - [M1,M3,M4] **Conversation for Action** (§5.4): a request establishes proposed conditions of satisfaction; a response may accept, reject, or counteroffer, and the requester can revise or withdraw. Performance is followed by an assertion of completion and an assessment of satisfaction. The diagram models possibilities in a conversation, not hidden mental states or every possible exchange.

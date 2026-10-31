@@ -4,7 +4,7 @@
 
 ## Mental Model (read first)
 
-[M1,M3,M4] Agre develops **critical technical practice**: critique becomes part of building computational systems rather than a verdict delivered from outside engineering. Recurrent technical difficulties can disclose inherited assumptions about human activity. The alternative centers ongoing involvement in a structured world. M-tags connect these arguments to the user's anchor; Agre does not assert Lee's five theses.
+[M1,M3,M4] **Critical technical practice** makes critique part of building computational systems rather than a verdict delivered from outside engineering. Recurrent technical difficulties can disclose inherited assumptions about human activity. The alternative centers ongoing involvement in a structured world. M-tags connect these arguments to the user's anchor; Agre does not assert Lee's five theses.
 
 ## Frameworks & Structure
 
@@ -32,11 +32,11 @@
 - [M1,M4] **Representation and Indexicality** (ch. 11): a representation may be intelligible only relative to the agent's current relation to the world. A context-free inventory of named objects is not the only way to support action. Ask what is identified, by whom, during which activity, and through what continuing access.
 - [M1,M3,M4] **Deictic Representation; Entities and Aspects** (ch. 12): objects are selected through activity-relative roles and causally maintained relationships, such as an object presently being acted upon. These roles can reduce bookkeeping and connect perception to action. They depend on reliable selection and attention; an indexical expression is not magic access to its referent.
 - [M1,M3,M4] **Pengi; Seriality and Focus** (ch. 13): a video-game agent coordinates situated perceptions and actions without storing a complete plan for each routine. The environment and designed circuitry provide much of the organization. Attention and focus remain constraints; the program is a constructive argument whose limits matter as much as its success.
-- [M1,M3] **Discourse and Practice** (ch. 14): changes in technical language and changes in machinery should discipline one another. A philosophical alternative earns engineering value by changing what can be built, tested, or explained. Agre's critique remains continuous with existing technique, rather than pretending a complete clean start is possible.
+- [M1,M3] **Discourse and Practice** (ch. 14): changes in technical language and changes in machinery should discipline one another. A philosophical alternative earns engineering value by changing what can be built, tested, or explained. Critique remains continuous with existing technique, rather than pretending a complete clean start is possible.
 
 ## Worked Example
 
-[M1,M3,M4] **Reconstructed from ch. 13: Pengi's two-ice-cube trick.** A bee is not aligned with an available cube. The agent kicks one cube until another stops it, creating an alignment, then moves behind it and kicks again. An observer can describe this as a plan. Agre instead explains it through circuitry that selects a sensible move in each successive situation and activity-relative representations of relevant objects. The game mechanics carry part of the sequence's organization. To test transfer, change those mechanics or interfere with the relevant visual relation. Success on the original board cannot establish a general capacity for planning or human understanding.
+[M1,M3,M4] **Reconstructed from ch. 13: Pengi's two-ice-cube trick.** A bee is not aligned with an available cube. The agent kicks one cube until another stops it, creating an alignment, then moves behind it and kicks again. An observer can describe this as a plan. The alternative explanation uses circuitry that selects a sensible move in each successive situation and activity-relative representations of relevant objects. The game mechanics carry part of the sequence's organization. To test transfer, change those mechanics or interfere with the relevant visual relation. Success on the original board cannot establish a general capacity for planning or human understanding.
 
 ## Decision Rules & Judgment
 
